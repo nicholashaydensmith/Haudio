@@ -1,0 +1,33 @@
+$Id:$
+######################################################
+#  Haudio
+#  
+#
+
+ Usage
+
+    Install CSound: Get up a copy of the CSound Library from
+                    http://www.csounds.com/
+
+    From GUI: Open GUI and enter code either through main window, or 
+              through interactive mode.
+    
+    From Command Line: mkdir ~/.../Haudio and copy all files from
+                       repository to the folder.  Edit or create
+                       a file called ~/.../Haudio/tmp/out.hs, this
+                       file must include at least:
+
+                          import Haudio
+                          import NoteTable
+                          playList :: Notes
+
+                          --Your code goes here
+
+                          main :: IO ()
+                          main = playNoFork playList
+
+                       Run using: $ make
+                                  $ csound -d -odac tmp/main.csd
+                       Or:
+                                  $ make interactive
+                       Which will run it using ghci.
