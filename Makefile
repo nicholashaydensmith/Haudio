@@ -16,9 +16,9 @@ GHC    = ghc -w
 GHCI   = ghci -w
 PKGS   = -package ghc
 
-all: cid ghc runHaskell
+all: ghc runHaskell
 
-interactive: cid ghci
+interactive: ghci
 
 ghc:
 	$(GHC) $(HSRCD) 

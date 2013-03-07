@@ -15,12 +15,13 @@ $Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
               must be copied there for the GUI to see any changes. In
               the finder you can right click a .app and select 'Show
               Package Contents'.
-              Note ~ This only works on mac
+              Note ~ The GUI only works on mac
     
     From Command Line: mkdir ~/.../Haudio and copy all files from
                        repository to the folder.  Edit or create
                        a file called ~/.../Haudio/tmp/out.hs, this
                        haskell file must include at least:
+
 
                           import Haudio
                           import NoteTable
@@ -31,9 +32,17 @@ $Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
                           main :: IO ()
                           main = playNoFork playList
 
-                       Run using: 
+
+                       Run CSound manually using: 
                                   $ make
                                   $ csound -d -odac tmp/main.csd
 
                        Or using ghci:
                                   $ make interactive
+
+                       If you don't want the output from csound use
+                       'play' instead of 'playNoFork' in tmp/out.hs
+                       and the output from csound will be redirected
+                       to out.log and err.log.  Haskell will then
+                       handle the csound process and you will only
+                       need to run make.
