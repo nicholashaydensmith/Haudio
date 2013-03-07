@@ -1,0 +1,5801 @@
+head	1.311;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.311
+date	2013.03.06.08.36.57;	author -;	state -;
+branches;
+next	1.310;
+
+1.310
+date	2013.03.06.08.35.12;	author -;	state -;
+branches;
+next	1.309;
+
+1.309
+date	2013.03.06.08.34.53;	author -;	state -;
+branches;
+next	1.308;
+
+1.308
+date	2013.03.06.07.41.32;	author -;	state -;
+branches;
+next	1.307;
+
+1.307
+date	2013.03.06.07.28.24;	author -;	state -;
+branches;
+next	1.306;
+
+1.306
+date	2013.03.06.07.11.23;	author -;	state -;
+branches;
+next	1.305;
+
+1.305
+date	2013.03.06.07.10.37;	author -;	state -;
+branches;
+next	1.304;
+
+1.304
+date	2013.03.06.07.08.40;	author -;	state -;
+branches;
+next	1.303;
+
+1.303
+date	2013.03.06.07.06.00;	author -;	state -;
+branches;
+next	1.302;
+
+1.302
+date	2013.03.06.07.02.02;	author -;	state -;
+branches;
+next	1.301;
+
+1.301
+date	2013.03.06.07.01.46;	author -;	state -;
+branches;
+next	1.300;
+
+1.300
+date	2013.03.06.07.00.05;	author -;	state -;
+branches;
+next	1.299;
+
+1.299
+date	2013.03.06.06.58.10;	author -;	state -;
+branches;
+next	1.298;
+
+1.298
+date	2013.03.06.06.57.17;	author -;	state -;
+branches;
+next	1.297;
+
+1.297
+date	2013.03.06.06.56.33;	author -;	state -;
+branches;
+next	1.296;
+
+1.296
+date	2013.03.06.06.56.07;	author -;	state -;
+branches;
+next	1.295;
+
+1.295
+date	2013.03.06.06.49.48;	author -;	state -;
+branches;
+next	1.294;
+
+1.294
+date	2013.03.06.06.49.02;	author -;	state -;
+branches;
+next	1.293;
+
+1.293
+date	2013.03.06.06.46.34;	author -;	state -;
+branches;
+next	1.292;
+
+1.292
+date	2013.03.06.06.45.33;	author -;	state -;
+branches;
+next	1.291;
+
+1.291
+date	2013.03.06.06.45.14;	author -;	state -;
+branches;
+next	1.290;
+
+1.290
+date	2013.03.06.06.44.50;	author -;	state -;
+branches;
+next	1.289;
+
+1.289
+date	2013.03.06.05.23.31;	author -;	state -;
+branches;
+next	1.288;
+
+1.288
+date	2013.03.06.05.22.44;	author -;	state -;
+branches;
+next	1.287;
+
+1.287
+date	2013.03.06.05.21.10;	author -;	state -;
+branches;
+next	1.286;
+
+1.286
+date	2013.03.06.05.15.18;	author -;	state -;
+branches;
+next	1.285;
+
+1.285
+date	2013.03.06.05.14.56;	author -;	state -;
+branches;
+next	1.284;
+
+1.284
+date	2013.03.06.05.13.48;	author -;	state -;
+branches;
+next	1.283;
+
+1.283
+date	2013.03.06.05.13.11;	author -;	state -;
+branches;
+next	1.282;
+
+1.282
+date	2013.03.06.04.59.06;	author -;	state -;
+branches;
+next	1.281;
+
+1.281
+date	2013.03.06.04.57.55;	author -;	state -;
+branches;
+next	1.280;
+
+1.280
+date	2013.03.06.04.53.53;	author -;	state -;
+branches;
+next	1.279;
+
+1.279
+date	2013.03.06.04.53.40;	author -;	state -;
+branches;
+next	1.278;
+
+1.278
+date	2013.03.06.04.52.45;	author -;	state -;
+branches;
+next	1.277;
+
+1.277
+date	2013.03.06.04.48.34;	author -;	state -;
+branches;
+next	1.276;
+
+1.276
+date	2013.03.06.04.41.48;	author -;	state -;
+branches;
+next	1.275;
+
+1.275
+date	2013.03.06.04.41.32;	author -;	state -;
+branches;
+next	1.274;
+
+1.274
+date	2013.03.06.04.40.58;	author -;	state -;
+branches;
+next	1.273;
+
+1.273
+date	2013.03.06.04.36.13;	author -;	state -;
+branches;
+next	1.272;
+
+1.272
+date	2013.03.06.04.35.20;	author -;	state -;
+branches;
+next	1.271;
+
+1.271
+date	2013.03.06.04.32.24;	author -;	state -;
+branches;
+next	1.270;
+
+1.270
+date	2013.03.06.04.28.03;	author -;	state -;
+branches;
+next	1.269;
+
+1.269
+date	2013.03.06.04.27.38;	author -;	state -;
+branches;
+next	1.268;
+
+1.268
+date	2013.03.06.04.26.56;	author -;	state -;
+branches;
+next	1.267;
+
+1.267
+date	2013.03.06.04.23.57;	author -;	state -;
+branches;
+next	1.266;
+
+1.266
+date	2013.03.06.04.23.30;	author -;	state -;
+branches;
+next	1.265;
+
+1.265
+date	2013.03.06.04.21.21;	author -;	state -;
+branches;
+next	1.264;
+
+1.264
+date	2013.03.06.04.20.37;	author -;	state -;
+branches;
+next	1.263;
+
+1.263
+date	2013.03.06.04.17.56;	author -;	state -;
+branches;
+next	1.262;
+
+1.262
+date	2013.03.06.04.16.25;	author -;	state -;
+branches;
+next	1.261;
+
+1.261
+date	2013.03.06.04.16.12;	author -;	state -;
+branches;
+next	1.260;
+
+1.260
+date	2013.03.06.04.14.39;	author -;	state -;
+branches;
+next	1.259;
+
+1.259
+date	2013.03.06.04.14.19;	author -;	state -;
+branches;
+next	1.258;
+
+1.258
+date	2013.03.06.04.14.07;	author -;	state -;
+branches;
+next	1.257;
+
+1.257
+date	2013.03.06.04.10.45;	author -;	state -;
+branches;
+next	1.256;
+
+1.256
+date	2013.03.06.04.10.29;	author -;	state -;
+branches;
+next	1.255;
+
+1.255
+date	2013.03.06.04.09.40;	author -;	state -;
+branches;
+next	1.254;
+
+1.254
+date	2013.03.06.04.09.13;	author -;	state -;
+branches;
+next	1.253;
+
+1.253
+date	2013.03.06.04.03.59;	author -;	state -;
+branches;
+next	1.252;
+
+1.252
+date	2013.03.06.04.03.47;	author -;	state -;
+branches;
+next	1.251;
+
+1.251
+date	2013.03.06.04.03.18;	author -;	state -;
+branches;
+next	1.250;
+
+1.250
+date	2013.03.06.04.03.00;	author -;	state -;
+branches;
+next	1.249;
+
+1.249
+date	2013.03.06.04.00.36;	author -;	state -;
+branches;
+next	1.248;
+
+1.248
+date	2013.03.06.04.00.17;	author -;	state -;
+branches;
+next	1.247;
+
+1.247
+date	2013.03.06.03.59.52;	author -;	state -;
+branches;
+next	1.246;
+
+1.246
+date	2013.03.06.03.59.40;	author -;	state -;
+branches;
+next	1.245;
+
+1.245
+date	2013.03.06.03.57.56;	author -;	state -;
+branches;
+next	1.244;
+
+1.244
+date	2013.03.06.03.57.40;	author -;	state -;
+branches;
+next	1.243;
+
+1.243
+date	2013.03.06.03.56.44;	author -;	state -;
+branches;
+next	1.242;
+
+1.242
+date	2013.03.06.03.55.48;	author -;	state -;
+branches;
+next	1.241;
+
+1.241
+date	2013.03.06.03.54.58;	author -;	state -;
+branches;
+next	1.240;
+
+1.240
+date	2013.03.06.03.29.31;	author -;	state -;
+branches;
+next	1.239;
+
+1.239
+date	2013.03.06.03.29.22;	author -;	state -;
+branches;
+next	1.238;
+
+1.238
+date	2013.03.06.03.29.01;	author -;	state -;
+branches;
+next	1.237;
+
+1.237
+date	2013.03.06.03.28.45;	author -;	state -;
+branches;
+next	1.236;
+
+1.236
+date	2013.03.06.03.28.05;	author -;	state -;
+branches;
+next	1.235;
+
+1.235
+date	2013.03.06.03.27.49;	author -;	state -;
+branches;
+next	1.234;
+
+1.234
+date	2013.03.06.03.27.23;	author -;	state -;
+branches;
+next	1.233;
+
+1.233
+date	2013.03.06.03.26.46;	author -;	state -;
+branches;
+next	1.232;
+
+1.232
+date	2013.03.06.03.26.15;	author -;	state -;
+branches;
+next	1.231;
+
+1.231
+date	2013.03.06.03.25.22;	author -;	state -;
+branches;
+next	1.230;
+
+1.230
+date	2013.03.06.03.25.10;	author -;	state -;
+branches;
+next	1.229;
+
+1.229
+date	2013.03.06.03.24.46;	author -;	state -;
+branches;
+next	1.228;
+
+1.228
+date	2013.03.06.03.24.20;	author -;	state -;
+branches;
+next	1.227;
+
+1.227
+date	2013.03.06.03.23.38;	author -;	state -;
+branches;
+next	1.226;
+
+1.226
+date	2013.03.06.03.22.55;	author -;	state -;
+branches;
+next	1.225;
+
+1.225
+date	2013.03.06.03.22.30;	author -;	state -;
+branches;
+next	1.224;
+
+1.224
+date	2013.03.06.03.21.24;	author -;	state -;
+branches;
+next	1.223;
+
+1.223
+date	2013.03.06.03.20.30;	author -;	state -;
+branches;
+next	1.222;
+
+1.222
+date	2013.03.06.03.19.19;	author -;	state -;
+branches;
+next	1.221;
+
+1.221
+date	2013.03.06.03.18.38;	author -;	state -;
+branches;
+next	1.220;
+
+1.220
+date	2013.03.05.21.07.39;	author -;	state -;
+branches;
+next	1.219;
+
+1.219
+date	2013.03.05.21.04.26;	author -;	state -;
+branches;
+next	1.218;
+
+1.218
+date	2013.03.05.21.02.25;	author -;	state -;
+branches;
+next	1.217;
+
+1.217
+date	2013.03.05.21.02.14;	author -;	state -;
+branches;
+next	1.216;
+
+1.216
+date	2013.03.05.20.59.51;	author -;	state -;
+branches;
+next	1.215;
+
+1.215
+date	2013.03.05.05.56.00;	author -;	state -;
+branches;
+next	1.214;
+
+1.214
+date	2013.03.05.05.55.52;	author -;	state -;
+branches;
+next	1.213;
+
+1.213
+date	2013.03.05.05.44.45;	author -;	state -;
+branches;
+next	1.212;
+
+1.212
+date	2013.03.05.05.42.24;	author -;	state -;
+branches;
+next	1.211;
+
+1.211
+date	2013.03.05.05.41.59;	author -;	state -;
+branches;
+next	1.210;
+
+1.210
+date	2013.03.05.05.39.44;	author -;	state -;
+branches;
+next	1.209;
+
+1.209
+date	2013.03.05.05.39.25;	author -;	state -;
+branches;
+next	1.208;
+
+1.208
+date	2013.03.05.05.37.39;	author -;	state -;
+branches;
+next	1.207;
+
+1.207
+date	2013.03.05.05.13.21;	author -;	state -;
+branches;
+next	1.206;
+
+1.206
+date	2013.03.05.05.12.06;	author -;	state -;
+branches;
+next	1.205;
+
+1.205
+date	2013.03.05.05.11.57;	author -;	state -;
+branches;
+next	1.204;
+
+1.204
+date	2013.03.05.05.10.24;	author -;	state -;
+branches;
+next	1.203;
+
+1.203
+date	2013.03.05.05.10.07;	author -;	state -;
+branches;
+next	1.202;
+
+1.202
+date	2013.03.05.05.09.55;	author -;	state -;
+branches;
+next	1.201;
+
+1.201
+date	2013.03.05.05.04.37;	author -;	state -;
+branches;
+next	1.200;
+
+1.200
+date	2013.03.05.05.03.02;	author -;	state -;
+branches;
+next	1.199;
+
+1.199
+date	2013.03.05.05.02.02;	author -;	state -;
+branches;
+next	1.198;
+
+1.198
+date	2013.03.05.05.01.19;	author -;	state -;
+branches;
+next	1.197;
+
+1.197
+date	2013.03.05.05.01.08;	author -;	state -;
+branches;
+next	1.196;
+
+1.196
+date	2013.03.05.05.00.58;	author -;	state -;
+branches;
+next	1.195;
+
+1.195
+date	2013.03.05.05.00.22;	author -;	state -;
+branches;
+next	1.194;
+
+1.194
+date	2013.03.05.04.50.57;	author -;	state -;
+branches;
+next	1.193;
+
+1.193
+date	2013.03.05.04.46.46;	author -;	state -;
+branches;
+next	1.192;
+
+1.192
+date	2013.03.05.04.46.34;	author -;	state -;
+branches;
+next	1.191;
+
+1.191
+date	2013.03.05.04.43.03;	author -;	state -;
+branches;
+next	1.190;
+
+1.190
+date	2013.03.05.04.39.41;	author -;	state -;
+branches;
+next	1.189;
+
+1.189
+date	2013.03.05.04.15.18;	author -;	state -;
+branches;
+next	1.188;
+
+1.188
+date	2013.03.05.04.14.53;	author -;	state -;
+branches;
+next	1.187;
+
+1.187
+date	2013.03.05.04.14.37;	author -;	state -;
+branches;
+next	1.186;
+
+1.186
+date	2013.03.05.04.14.29;	author -;	state -;
+branches;
+next	1.185;
+
+1.185
+date	2013.03.05.04.14.04;	author -;	state -;
+branches;
+next	1.184;
+
+1.184
+date	2013.03.05.04.13.26;	author -;	state -;
+branches;
+next	1.183;
+
+1.183
+date	2013.03.05.04.12.25;	author -;	state -;
+branches;
+next	1.182;
+
+1.182
+date	2013.03.05.04.12.09;	author -;	state -;
+branches;
+next	1.181;
+
+1.181
+date	2013.03.05.02.58.40;	author -;	state -;
+branches;
+next	1.180;
+
+1.180
+date	2013.03.05.02.58.07;	author -;	state -;
+branches;
+next	1.179;
+
+1.179
+date	2013.03.05.02.56.46;	author -;	state -;
+branches;
+next	1.178;
+
+1.178
+date	2013.03.05.02.56.25;	author -;	state -;
+branches;
+next	1.177;
+
+1.177
+date	2013.03.05.02.53.46;	author -;	state -;
+branches;
+next	1.176;
+
+1.176
+date	2013.03.05.02.53.38;	author -;	state -;
+branches;
+next	1.175;
+
+1.175
+date	2013.03.05.02.53.27;	author -;	state -;
+branches;
+next	1.174;
+
+1.174
+date	2013.03.05.02.52.29;	author -;	state -;
+branches;
+next	1.173;
+
+1.173
+date	2013.03.05.02.51.56;	author -;	state -;
+branches;
+next	1.172;
+
+1.172
+date	2013.03.05.02.51.28;	author -;	state -;
+branches;
+next	1.171;
+
+1.171
+date	2013.03.05.02.48.12;	author -;	state -;
+branches;
+next	1.170;
+
+1.170
+date	2013.03.05.02.47.13;	author -;	state -;
+branches;
+next	1.169;
+
+1.169
+date	2013.03.05.02.46.11;	author -;	state -;
+branches;
+next	1.168;
+
+1.168
+date	2013.03.05.02.45.37;	author -;	state -;
+branches;
+next	1.167;
+
+1.167
+date	2013.03.05.02.45.20;	author -;	state -;
+branches;
+next	1.166;
+
+1.166
+date	2013.03.05.02.43.27;	author -;	state -;
+branches;
+next	1.165;
+
+1.165
+date	2013.03.05.02.40.24;	author -;	state -;
+branches;
+next	1.164;
+
+1.164
+date	2013.03.05.02.30.51;	author -;	state -;
+branches;
+next	1.163;
+
+1.163
+date	2013.03.05.02.30.27;	author -;	state -;
+branches;
+next	1.162;
+
+1.162
+date	2013.03.05.02.30.08;	author -;	state -;
+branches;
+next	1.161;
+
+1.161
+date	2013.03.05.02.25.49;	author -;	state -;
+branches;
+next	1.160;
+
+1.160
+date	2013.03.05.02.25.30;	author -;	state -;
+branches;
+next	1.159;
+
+1.159
+date	2013.03.05.02.18.17;	author -;	state -;
+branches;
+next	1.158;
+
+1.158
+date	2013.03.05.02.14.16;	author -;	state -;
+branches;
+next	1.157;
+
+1.157
+date	2013.03.05.02.13.45;	author -;	state -;
+branches;
+next	1.156;
+
+1.156
+date	2013.03.05.02.07.04;	author -;	state -;
+branches;
+next	1.155;
+
+1.155
+date	2013.03.05.02.06.54;	author -;	state -;
+branches;
+next	1.154;
+
+1.154
+date	2013.03.04.21.30.34;	author -;	state -;
+branches;
+next	1.153;
+
+1.153
+date	2013.03.04.21.30.14;	author -;	state -;
+branches;
+next	1.152;
+
+1.152
+date	2013.03.04.21.28.02;	author -;	state -;
+branches;
+next	1.151;
+
+1.151
+date	2013.03.04.21.27.15;	author -;	state -;
+branches;
+next	1.150;
+
+1.150
+date	2013.03.04.21.26.22;	author -;	state -;
+branches;
+next	1.149;
+
+1.149
+date	2013.03.04.06.54.31;	author -;	state -;
+branches;
+next	1.148;
+
+1.148
+date	2013.03.01.19.08.12;	author -;	state -;
+branches;
+next	1.147;
+
+1.147
+date	2013.03.01.07.45.41;	author -;	state -;
+branches;
+next	1.146;
+
+1.146
+date	2013.03.01.02.25.31;	author -;	state -;
+branches;
+next	1.145;
+
+1.145
+date	2013.03.01.02.14.14;	author -;	state -;
+branches;
+next	1.144;
+
+1.144
+date	2013.03.01.02.13.58;	author -;	state -;
+branches;
+next	1.143;
+
+1.143
+date	2013.03.01.02.13.20;	author -;	state -;
+branches;
+next	1.142;
+
+1.142
+date	2013.03.01.02.12.55;	author -;	state -;
+branches;
+next	1.141;
+
+1.141
+date	2013.03.01.02.12.27;	author -;	state -;
+branches;
+next	1.140;
+
+1.140
+date	2013.03.01.02.11.14;	author -;	state -;
+branches;
+next	1.139;
+
+1.139
+date	2013.03.01.02.10.56;	author -;	state -;
+branches;
+next	1.138;
+
+1.138
+date	2013.02.28.20.46.45;	author -;	state -;
+branches;
+next	1.137;
+
+1.137
+date	2013.02.28.20.46.07;	author -;	state -;
+branches;
+next	1.136;
+
+1.136
+date	2013.02.28.20.32.41;	author -;	state -;
+branches;
+next	1.135;
+
+1.135
+date	2013.02.28.20.30.56;	author -;	state -;
+branches;
+next	1.134;
+
+1.134
+date	2013.02.28.20.28.56;	author -;	state -;
+branches;
+next	1.133;
+
+1.133
+date	2013.02.28.20.26.05;	author -;	state -;
+branches;
+next	1.132;
+
+1.132
+date	2013.02.28.20.25.51;	author -;	state -;
+branches;
+next	1.131;
+
+1.131
+date	2013.02.28.20.06.56;	author -;	state -;
+branches;
+next	1.130;
+
+1.130
+date	2013.02.28.20.06.08;	author -;	state -;
+branches;
+next	1.129;
+
+1.129
+date	2013.02.28.20.05.42;	author -;	state -;
+branches;
+next	1.128;
+
+1.128
+date	2013.02.28.20.05.21;	author -;	state -;
+branches;
+next	1.127;
+
+1.127
+date	2013.02.28.20.05.11;	author -;	state -;
+branches;
+next	1.126;
+
+1.126
+date	2013.02.28.20.00.57;	author -;	state -;
+branches;
+next	1.125;
+
+1.125
+date	2013.02.28.20.00.37;	author -;	state -;
+branches;
+next	1.124;
+
+1.124
+date	2013.02.28.19.59.44;	author -;	state -;
+branches;
+next	1.123;
+
+1.123
+date	2013.02.28.19.56.50;	author -;	state -;
+branches;
+next	1.122;
+
+1.122
+date	2013.02.28.19.46.50;	author -;	state -;
+branches;
+next	1.121;
+
+1.121
+date	2013.02.28.19.46.37;	author -;	state -;
+branches;
+next	1.120;
+
+1.120
+date	2013.02.28.19.45.02;	author -;	state -;
+branches;
+next	1.119;
+
+1.119
+date	2013.02.28.19.42.30;	author -;	state -;
+branches;
+next	1.118;
+
+1.118
+date	2013.02.28.19.41.44;	author -;	state -;
+branches;
+next	1.117;
+
+1.117
+date	2013.02.28.19.41.34;	author -;	state -;
+branches;
+next	1.116;
+
+1.116
+date	2013.02.28.19.40.00;	author -;	state -;
+branches;
+next	1.115;
+
+1.115
+date	2013.02.28.19.37.26;	author -;	state -;
+branches;
+next	1.114;
+
+1.114
+date	2013.02.28.19.37.05;	author -;	state -;
+branches;
+next	1.113;
+
+1.113
+date	2013.02.28.19.33.51;	author -;	state -;
+branches;
+next	1.112;
+
+1.112
+date	2013.02.28.19.33.11;	author -;	state -;
+branches;
+next	1.111;
+
+1.111
+date	2013.02.28.19.32.34;	author -;	state -;
+branches;
+next	1.110;
+
+1.110
+date	2013.02.28.19.30.58;	author -;	state -;
+branches;
+next	1.109;
+
+1.109
+date	2013.02.28.19.30.22;	author -;	state -;
+branches;
+next	1.108;
+
+1.108
+date	2013.02.28.19.29.20;	author -;	state -;
+branches;
+next	1.107;
+
+1.107
+date	2013.02.28.19.29.06;	author -;	state -;
+branches;
+next	1.106;
+
+1.106
+date	2013.02.28.19.28.07;	author -;	state -;
+branches;
+next	1.105;
+
+1.105
+date	2013.02.28.19.25.31;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2013.02.28.19.25.05;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2013.02.28.19.23.21;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2013.02.28.19.22.38;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2013.02.28.19.21.34;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2013.02.28.19.21.02;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2013.02.28.19.20.54;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2013.02.28.19.18.32;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2013.02.28.19.17.24;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2013.02.28.19.16.50;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2013.02.28.19.15.18;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2013.02.28.19.15.07;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2013.02.28.19.08.03;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2013.02.28.19.07.52;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2013.02.28.18.59.38;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2013.02.28.18.58.35;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2013.02.28.18.57.59;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2013.02.28.18.55.58;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2013.02.28.18.52.31;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2013.02.28.18.45.07;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2013.02.28.18.43.14;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2013.02.28.17.22.57;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2013.02.28.01.18.49;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2013.02.28.01.11.09;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2013.02.28.01.04.03;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2013.02.28.01.02.23;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2013.02.28.01.01.36;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2013.02.28.01.01.20;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2013.02.28.01.01.04;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2013.02.28.01.00.50;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2013.02.28.01.00.26;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2013.02.27.23.08.45;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2013.02.27.23.07.59;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2013.02.27.23.05.35;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2013.02.27.23.05.04;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2013.02.27.22.55.11;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2013.02.27.22.54.51;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2013.02.27.22.32.12;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2013.02.27.22.27.29;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2013.02.27.22.26.22;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2013.02.27.22.26.10;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2013.02.27.22.25.33;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2013.02.27.22.20.30;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2013.02.27.22.19.19;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2013.02.27.22.17.34;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2013.02.27.22.17.26;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2013.02.27.22.07.23;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2013.02.27.22.05.53;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2013.02.27.22.05.01;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2013.02.27.21.59.12;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2013.02.27.21.58.51;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2013.02.27.21.58.27;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2013.02.27.21.57.45;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2013.02.27.21.55.00;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2013.02.27.21.54.50;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2013.02.27.21.53.07;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2013.02.27.21.52.20;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2013.02.27.21.46.33;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2013.02.27.21.46.12;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2013.02.27.21.45.34;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2013.02.27.21.41.27;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2013.02.26.06.41.28;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2013.02.26.00.07.54;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2013.02.26.00.06.15;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2013.02.26.00.05.18;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2013.02.26.00.03.18;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2013.02.26.00.02.58;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2013.02.26.00.02.26;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2013.02.26.00.01.17;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2013.02.26.00.01.08;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2013.02.26.00.00.22;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2013.02.25.23.55.46;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2013.02.25.23.55.01;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2013.02.25.23.37.04;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2013.02.25.05.42.07;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2013.02.23.04.46.41;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2013.02.23.04.45.54;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2013.02.23.04.43.45;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2013.02.23.04.43.17;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2013.02.23.04.42.09;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2013.02.23.04.38.35;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.02.23.04.36.16;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.02.23.04.34.55;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.02.23.04.32.31;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.02.23.04.32.11;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.02.23.04.31.52;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.02.23.04.31.28;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.02.23.04.30.48;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.02.23.04.19.35;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.02.23.04.14.38;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.02.23.04.14.24;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.02.23.04.10.58;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.23.04.04.24;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.23.03.22.19;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.23.03.21.29;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.23.01.22.25;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.23.01.18.05;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.23.01.17.25;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.23.00.19.12;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.23.00.18.49;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.23.00.00.30;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.22.23.59.09;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.22.23.58.01;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.22.23.57.31;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.08.23.07.51;	author nicholassmith;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.311
+log
+@-
+@
+text
+@-- $Id: Haudio.hs,v 1.154 2013-03-04 13:30:34-08 - - $
+
+module Haudio where
+
+import Data.List
+import Data.Maybe
+import System.Process
+import GHC.IO.Handle
+
+type Frequency = Float
+type Volume = Float
+type InstNum = Integer
+
+emptyNote :: Notes
+emptyNote = Chord []
+
+data Notes = Note Frequency Volume [Effects]
+           | Chord [Notes]
+
+note :: Frequency -> Volume -> [Effects] -> Notes
+note f v es | f >= 0 && v <= 100 && v >= 0  && effect es = Note f v es
+            | otherwise = error ("Note frequency or volume out of range or duplicate occurence of effect")
+
+effect :: [Effects] -> Bool
+effect es = checkDouble es 0 0
+
+checkDouble :: [Effects] -> Integer -> Integer -> Bool
+checkDouble [] env tim | env < 2 && tim < 2 = True
+                       | otherwise = False
+checkDouble (Envelope _ _ _ _:es) env tim = checkDouble es (env+1) tim
+checkDouble ((Time _ _):es) env tim = checkDouble es env (tim+1)
+
+type Attack = Float
+type Decay = Float
+type Sustain = Float
+type Release = Float
+type Start = Float
+type Duration = Float
+
+data Effects = Envelope Attack Decay Sustain Release
+             | Time Start Duration
+
+(&) :: Notes -> Effects -> Notes
+(&) (Note f v es) e = note f v (e:es)
+(&) (Chord ns) e = Chord (map (& e) ns)
+
+-----------------------------------------------------------
+
+data CSoundType = Instrument Notes InstNum
+                | PField Notes InstNum
+
+top = "<CsoundSynthesizer>\n<CsOptions>\n-odac -d\n</CsOptions>\n<CsInstruments>\n"
+mid = "</CsInstruments>\n<CsScore>\n;Function\nf1 0 1024 10 1\n\n"
+end = "</CsScore>\n</CsoundSynthesizer>\n"
+
+outFile = "tmp/main.csd"
+outLog = "tmp/out.log"
+errLog = "tmp/err.log"
+
+play :: Notes -> IO ()
+play n = do writeFile outFile contents
+            (exitStatus,stdout,stderr) <- readProcessWithExitCode cmd args ""
+            writeFile outLog stdout
+            writeFile errLog stderr where
+               contents = (fromJust (fillContents n))
+               cmd = "csound"
+               args = ["-d","-odac","tmp/main.csd"]
+
+playNoFork :: Notes -> IO ()
+playNoFork n = do writeFile outFile contents where
+                  contents = (fromJust (fillContents n))
+
+fillContents :: Notes -> Maybe String
+fillContents n = do insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                    pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                    Just (top ++ insts ++ mid ++ pflds ++ end)
+ 
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> Maybe String
+printCSound _ (Chord []) _ = Just ""
+printCSound cstype (Chord ((Chord ns):cs)) i = printCSound cstype (Chord (ns ++ cs)) i
+printCSound cstype (Chord (n:ns)) i = do rest <- printCSound cstype (Chord ns) (i+1)
+                                         Just ((show (cstype n i)) ++ rest)
+printCSound _ _ _ = Nothing
+
+-------------------------------------------------------------------------------------
+
+showEnvelope :: [Effects] -> String
+showEnvelope [] = "out aout\n"
+showEnvelope ((Envelope a d s r):es) = "aenv adsr " ++ show a ++ ", " ++ show d ++ ", " ++
+                                       show s ++ ", " ++ show r ++ "\nout aout*aenv\n"
+showEnvelope (e:es) = showEnvelope es
+
+showTime :: [Effects] -> String
+showTime [] = " 0 5\n"
+showTime ((Time s d):es) = " " ++ show s ++ " " ++ show d ++ "\n"
+showTime (e:es) = showTime es
+
+instance Show CSoundType where
+  show (Instrument (Note f v es) i) = (";Instument " ++ show i ++ 
+                                       "\ninstr " ++ show i ++
+                                       "\naout oscil " ++ show (v * 100) ++ ", " ++
+                                       show f ++ ", 1\n"  ++ showEnvelope es ++ "endin\n")
+  show (PField (Note _ _ es) i) = ("i" ++ show i ++ showTime es)
+
+
+instance Show Notes where
+   show (Note f v es) = ("Note \n   Frequency   " ++ show f ++ "\n   Volume      " ++
+                                show v ++ "\n   Effects     " ++ show es)
+   show (Chord (n:ns)) = show n ++ "\n" ++ show ns
+
+instance Show Effects where
+   show (Envelope a d s r) = "Envelope"
+   show (Time s d) = "Time (Start " ++ show s ++ ") (Duration " ++ show d ++ ")"
+
+instance Num Notes where
+   (+) = (\n1 n2 -> Chord (n1:n2:[]))
+
+@
+
+
+1.310
+log
+@-
+@
+text
+@d109 1
+a109 1
+   show (Chord (n:ns)) = show n ++ show ns
+@
+
+
+1.309
+log
+@-
+@
+text
+@d109 1
+a109 1
+   show (Chord (n:ns)) = show n . shows ns
+@
+
+
+1.308
+log
+@-
+@
+text
+@d109 1
+@
+
+
+1.307
+log
+@-
+@
+text
+@d69 3
+a71 8
+
+{-
+            r <- createProcess (proc cmd args)
+            print (show "\n") where
+               contents = (fromJust (fillContents n))
+               cmd = "csound"
+               args = ["-d","-odac","tmp/main.csd"]
+-}
+@
+
+
+1.306
+log
+@-
+@
+text
+@d57 2
+d60 1
+a60 1
+play :: Notes -> IO (Maybe Handle, Maybe Handle, Maybe Handle, ProcessHandle)
+d62 3
+a64 1
+            createProcess (proc cmd args) where
+d69 1
+d71 2
+a72 2
+            ( _, Just out, _, _ ) <- createProcess (proc cmd args)
+            print "\n" where
+@
+
+
+1.305
+log
+@-
+@
+text
+@d8 1
+@
+
+
+1.304
+log
+@-
+@
+text
+@d57 1
+a57 1
+play :: Notes -> IO ()
+d59 6
+d70 1
+@
+
+
+1.303
+log
+@-
+@
+text
+@d59 2
+a60 2
+            ( _, Just out, _, _ ) <- createProcess (proc cmd args) { std_out = CreatePipe }
+            print out where
+@
+
+
+1.302
+log
+@-
+@
+text
+@d59 1
+a59 1
+            ( _, Just out, _, _ ) <- createProcess (proc "csound" ["-d","-odac","tmp/main.csd"]) { std_out = CreatePipe }
+d62 2
+@
+
+
+1.301
+log
+@-
+@
+text
+@d61 1
+a61 1
+               contents = (fromJust (getContents n))
+@
+
+
+1.300
+log
+@-
+@
+text
+@d58 1
+a58 1
+play n = do writeFile outFile (fromJust (fillContents n))--contents where contents = (fromJust (getContents n))
+d60 2
+a61 1
+            print out
+@
+
+
+1.299
+log
+@-
+@
+text
+@d59 2
+a60 2
+         ( _, Just out, _, _ ) <- createProcess (proc "csound" ["-d","-odac","tmp/main.csd"]) { std_out = CreatePipe }
+         print out
+@
+
+
+1.298
+log
+@-
+@
+text
+@d59 1
+a59 1
+          (_,Just out,_,_) <- createProcess (proc "csound" ["-d","-odac","tmp/main.csd"]) { std_out = CreatePipe }
+@
+
+
+1.297
+log
+@-
+@
+text
+@d59 1
+a59 1
+         (_,Just out,_,_) <- createProcess (proc "csound" ["-d","-odac","tmp/main.csd"]) { std_out = CreatePipe }
+@
+
+
+1.296
+log
+@-
+@
+text
+@d60 1
+@
+
+
+1.295
+log
+@-
+@
+text
+@d59 1
+a59 1
+            createProcess (proc "csound" ["-d","-odac","tmp/main.csd"])
+@
+
+
+1.294
+log
+@-
+@
+text
+@d58 1
+a58 1
+play n = do writeFile outFile (fromJust (getContents n))--contents where contents = (fromJust (getContents n))
+d61 4
+a64 4
+getContents :: Notes -> Maybe String
+getContents n = do insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                   pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                   Just (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.293
+log
+@-
+@
+text
+@d59 1
+a59 1
+            r <- createProcess (proc "csound" ["-d","-odac","tmp/main.csd"])
+@
+
+
+1.292
+log
+@-
+@
+text
+@d59 1
+a59 1
+            r <- createProcess (proc "csound" ["-d","-odac"])
+@
+
+
+1.291
+log
+@-
+@
+text
+@d58 1
+a58 1
+play n = do writeFile outFile contents where contents = (fromJust (getContents n))
+@
+
+
+1.290
+log
+@-
+@
+text
+@d58 1
+a58 2
+play n = do writeFile outFile contents where
+               contents = (fromJust (getContents n))
+@
+
+
+1.289
+log
+@-
+@
+text
+@d7 1
+d58 8
+a65 7
+play n = writeFile outFile contents where
+            contents = (fromJust (getStrings n))
+
+getStrings :: Notes -> Maybe String
+getStrings n = do insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                  pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                  Just (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.288
+log
+@-
+@
+text
+@d57 2
+a58 1
+play n = writeFile outFile (fromJust (getStrings n))
+@
+
+
+1.287
+log
+@-
+@
+text
+@d69 1
+@
+
+
+1.286
+log
+@-
+@
+text
+@d57 1
+a57 4
+play n = printPlayList n
+
+printPlayList :: Notes -> IO ()
+printPlayList n = writeFile outFile (fromJust (getStrings n))
+a63 8
+
+{-
+                  writeFile file contents where
+                     contents = top ++ insts ++ mid ++ pflds ++ end where
+                        insts = printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                        pflds = printCSound (\n i -> PField n i) (Chord [n]) 1
+-}
+
+d70 2
+@
+
+
+1.285
+log
+@-
+@
+text
+@d76 1
+a76 1
+printCSound _ (Chord []) _ = Nothing
+a110 3
+instance Maybe String where
+   Nothing = ""
+
+@
+
+
+1.284
+log
+@-
+@
+text
+@d111 3
+@
+
+
+1.283
+log
+@-
+@
+text
+@d6 1
+@
+
+
+1.282
+log
+@-
+@
+text
+@d53 1
+a53 1
+file = "tmp/main.csd"
+d59 7
+a65 3
+printPlayList n = do insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                     pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                     writeFile file (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.281
+log
+@-
+@
+text
+@d61 1
+a61 1
+                     Just (top ++ insts ++ mid ++ pflds ++ end)
+d70 1
+a70 1
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> IO (Maybe String)
+@
+
+
+1.280
+log
+@-
+@
+text
+@a54 1
+{-
+a56 1
+-}
+d58 1
+a58 1
+printPlayList :: Notes -> Maybe String
+d70 1
+a70 1
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> Maybe String
+@
+
+
+1.279
+log
+@-
+@
+text
+@d55 1
+d58 1
+@
+
+
+1.278
+log
+@-
+@
+text
+@d58 7
+a64 2
+printPlayList :: Notes -> Maybe String -> IO ()
+printPlayList n = writeFile file contents where
+d66 3
+a68 2
+                        insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                        pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+@
+
+
+1.277
+log
+@-
+@
+text
+@d59 1
+a59 6
+printPlayList n = do insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                     pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                     Just (top ++ insts ++ mid ++ pflds ++ end)
+
+{-
+                  writeFile file contents where
+d61 2
+a62 3
+                        insts = printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                        pflds = printCSound (\n i -> PField n i) (Chord [n]) 1
+-}
+@
+
+
+1.276
+log
+@-
+@
+text
+@d58 1
+a58 1
+printPlayList :: Notes -> String
+d61 1
+a61 1
+                     show (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.275
+log
+@-
+@
+text
+@d61 1
+a61 1
+                     (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.274
+log
+@-
+@
+text
+@d58 1
+a58 1
+printPlayList :: Notes -> Maybe String
+d61 1
+a61 1
+                     Just (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.273
+log
+@-
+@
+text
+@d58 1
+a58 1
+printPlayList :: Notes -> IO ()
+d61 1
+a61 1
+                     writeFile file (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.272
+log
+@-
+@
+text
+@d61 1
+a61 2
+                     writeFile file contents where
+                        contents = top ++ insts ++ mid ++ pflds ++ end
+@
+
+
+1.271
+log
+@-
+@
+text
+@d59 4
+a62 1
+printPlayList n = print "yolo" 
+@
+
+
+1.270
+log
+@-
+@
+text
+@d71 2
+a72 3
+printCSound cstype (Chord (n:ns)) i = Just (head ++ rest) where
+                                      head = show (cstype n i)
+                                      rest = printCSound cstype (Chord ns) (i+1)
+@
+
+
+1.269
+log
+@-
+@
+text
+@d73 1
+a73 1
+                                      rest = Just (printCSound cstype (Chord ns) (i+1))
+@
+
+
+1.268
+log
+@-
+@
+text
+@d73 1
+a73 1
+                                      rest = printCSound cstype (Chord ns) (i+1)
+@
+
+
+1.267
+log
+@-
+@
+text
+@d71 3
+a73 1
+printCSound cstype (Chord (n:ns)) i = (Just (show (cstype n i))) ++ printCSound cstype (Chord ns) (i+1)
+@
+
+
+1.266
+log
+@-
+@
+text
+@d59 1
+a59 1
+printPlayList n = 
+@
+
+
+1.265
+log
+@-
+@
+text
+@d59 4
+a62 1
+printPlayList n = writeFile file contents where
+d66 1
+d68 2
+a69 2
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> String
+printCSound _ (Chord []) _ = ""
+d71 1
+a71 1
+printCSound cstype (Chord (n:ns)) i = (show (cstype n i)) ++ printCSound cstype (Chord ns) (i+1)
+@
+
+
+1.264
+log
+@-
+@
+text
+@d59 1
+a59 5
+printPlayList n = do --putStr top
+                     --insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                     --writeFile file mid
+                     --pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                     writeFile file contents where
+d61 2
+a62 3
+                     insts = printCSound (\n i -> Instrument n i) (Chord [n]) 1
+                     pflds = printCSound (\n i -> PField n i) (Chord [n]) 1
+                     --writeFile file (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.263
+log
+@-
+@
+text
+@d63 4
+a66 3
+                     writeFile file top
+                     appendFile file mid
+                     appendFile file (show (Instrument (Note 440 100 []) 1))
+@
+
+
+1.262
+log
+@-
+@
+text
+@d68 2
+a69 2
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> IO ()
+printCSound _ (Chord []) _ = putStr ""
+d71 1
+a71 2
+printCSound cstype (Chord (n:ns)) i = do print (cstype n i)
+                                         printCSound cstype (Chord ns) (i+1)
+@
+
+
+1.261
+log
+@-
+@
+text
+@d65 1
+a65 1
+                     appendFile file (show (Instrument (Note 440 100 []) 1)
+@
+
+
+1.260
+log
+@-
+@
+text
+@a57 3
+app :: a -> IO ()
+app a = appendFile file (id a)
+
+d65 1
+@
+
+
+1.259
+log
+@-
+@
+text
+@d59 1
+a59 1
+app a = appendFile file (id (show a))
+@
+
+
+1.258
+log
+@-
+@
+text
+@d59 1
+a59 1
+app a = appendFile file (id a)
+@
+
+
+1.257
+log
+@-
+@
+text
+@d58 3
+@
+
+
+1.256
+log
+@-
+@
+text
+@d64 1
+a64 1
+                     writeFile file mid
+@
+
+
+1.255
+log
+@-
+@
+text
+@d63 2
+a64 1
+                     writeFile file (show top)
+@
+
+
+1.254
+log
+@-
+@
+text
+@d66 2
+a67 2
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> IO String
+printCSound _ (Chord []) _ = ""
+d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do show (cstype n i)
+@
+
+
+1.253
+log
+@-
+@
+text
+@a5 1
+import System.Environment
+d60 1
+a60 1
+                     insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
+d62 2
+a63 2
+                     pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
+                     writeFile file insts
+d67 1
+a67 1
+printCSound _ (Chord []) _ = getEnv ""
+d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do getEnv (show (cstype n i))
+@
+
+
+1.252
+log
+@-
+@
+text
+@d70 1
+a70 1
+printCSound cstype (Chord (n:ns)) i = do getEnv (print (cstype n i))
+@
+
+
+1.251
+log
+@-
+@
+text
+@d70 1
+a70 1
+printCSound cstype (Chord (n:ns)) i = do readIO (print (cstype n i))
+@
+
+
+1.250
+log
+@-
+@
+text
+@d68 1
+a68 1
+printCSound _ (Chord []) _ = readIO ""
+@
+
+
+1.249
+log
+@-
+@
+text
+@d6 1
+@
+
+
+1.248
+log
+@-
+@
+text
+@d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do readIO (show (cstype n i))
+@
+
+
+1.247
+log
+@-
+@
+text
+@d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do readIO (cstype n i)
+@
+
+
+1.246
+log
+@-
+@
+text
+@d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do show (cstype n i)
+@
+
+
+1.245
+log
+@-
+@
+text
+@d66 2
+a67 2
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> String
+printCSound _ (Chord []) _ = ""
+@
+
+
+1.244
+log
+@-
+@
+text
+@d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do print (cstype n i)
+@
+
+
+1.243
+log
+@-
+@
+text
+@d66 2
+a67 2
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> IO String
+printCSound _ (Chord []) _ = IO ""
+@
+
+
+1.242
+log
+@-
+@
+text
+@d67 1
+a67 1
+printCSound _ (Chord []) _ = getEnv ""
+@
+
+
+1.241
+log
+@-
+@
+text
+@d67 1
+a67 1
+printCSound _ (Chord []) _ = getLine ""
+@
+
+
+1.240
+log
+@-
+@
+text
+@d67 1
+a67 1
+printCSound _ (Chord []) _ = ""
+@
+
+
+1.239
+log
+@-
+@
+text
+@d67 1
+a67 1
+printCSound _ (Chord []) _ = print ""
+@
+
+
+1.238
+log
+@-
+@
+text
+@d67 1
+a67 1
+printCSound _ (Chord []) _ = putStr ""
+@
+
+
+1.237
+log
+@-
+@
+text
+@d63 1
+a63 1
+                     writeFile file (print insts)
+@
+
+
+1.236
+log
+@-
+@
+text
+@d66 1
+a66 1
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> IO ()
+@
+
+
+1.235
+log
+@-
+@
+text
+@a60 1
+                     show insts
+@
+
+
+1.234
+log
+@-
+@
+text
+@d61 1
+a61 1
+                     print insts
+@
+
+
+1.233
+log
+@-
+@
+text
+@d61 1
+@
+
+
+1.232
+log
+@-
+@
+text
+@d66 1
+a66 1
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> String
+d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do putStr (cstype n i)
+@
+
+
+1.231
+log
+@-
+@
+text
+@d66 1
+a66 1
+printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> IO ()
+d69 1
+a69 1
+printCSound cstype (Chord (n:ns)) i = do print (cstype n i)
+@
+
+
+1.230
+log
+@-
+@
+text
+@d63 1
+a63 1
+                     writeFile file (putStr insts)
+@
+
+
+1.229
+log
+@-
+@
+text
+@d58 1
+a58 1
+printPlayList :: Notes -> IO String
+d63 1
+a63 1
+                     writeFile file insts
+@
+
+
+1.228
+log
+@-
+@
+text
+@d58 1
+a58 1
+printPlayList :: Notes -> IO ()
+@
+
+
+1.227
+log
+@-
+@
+text
+@d63 2
+a64 1
+                     writeFile file (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.226
+log
+@-
+@
+text
+@d63 1
+a63 1
+                     writeFile file (putStr (top ++ insts ++ mid ++ pflds ++ end))
+@
+
+
+1.225
+log
+@-
+@
+text
+@d63 1
+a63 1
+                     writeFile file (top ++ insts ++ mid ++ pflds ++ end)
+@
+
+
+1.224
+log
+@-
+@
+text
+@d59 1
+a59 1
+printPlayList n = do putStr top
+d61 1
+a61 1
+                     writeFile file mid
+d63 1
+a63 1
+                     putStr end
+@
+
+
+1.223
+log
+@-
+@
+text
+@d59 2
+a60 2
+printPlayList n = do s <- putStr top
+                     printCSound (\n i -> Instrument n i) (Chord [n]) 1
+d62 1
+a62 1
+                     printCSound (\n i -> PField n i) (Chord [n]) 1
+@
+
+
+1.222
+log
+@-
+@
+text
+@d59 1
+a59 1
+printPlayList n = do writeFile file top
+d61 1
+a61 1
+                     putStr mid
+@
+
+
+1.221
+log
+@-
+@
+text
+@d53 1
+a53 1
+file = "main.csd"
+@
+
+
+1.220
+log
+@-
+@
+text
+@d53 2
+d59 1
+a59 1
+printPlayList n = do putStr top
+@
+
+
+1.219
+log
+@-
+@
+text
+@d58 1
+a58 1
+                     printCSound (\n i -> Instrument n i) n 1
+d60 1
+a60 1
+                     printCSound (\n i -> PField n i) n 1
+@
+
+
+1.218
+log
+@-
+@
+text
+@d53 3
+@
+
+
+1.217
+log
+@-
+@
+text
+@d17 2
+a18 2
+Tnote :: Frequency -> Volume -> [Effects] -> Notes
+Tnote f v es | f >= 0 && v <= 100 && v >= 0  && effect es = Note f v es
+@
+
+
+1.216
+log
+@-
+@
+text
+@d17 2
+a18 2
+note :: Frequency -> Volume -> [Effects] -> Notes
+note f v es | f >= 0 && v <= 100 && v >= 0  && effect es = Note f v es
+@
+
+
+1.215
+log
+@-
+@
+text
+@d11 3
+@
+
+
+1.214
+log
+@-
+@
+text
+@a10 2
+defaultNote = Note 440 100 []
+
+@
+
+
+1.213
+log
+@-
+@
+text
+@a10 3
+playList :: Notes -> Notes
+playList n = n
+
+@
+
+
+1.212
+log
+@-
+@
+text
+@d11 2
+a12 2
+playList :: Notes
+playList = Chord []
+@
+
+
+1.211
+log
+@-
+@
+text
+@d12 1
+@
+
+
+1.210
+log
+@-
+@
+text
+@d11 2
+@
+
+
+1.209
+log
+@-
+@
+text
+@d61 1
+a61 1
+printCSound cstype (Chord (Chord ns):cs) i = printCSound cstype (Chord (ns ++ cs)) i
+@
+
+
+1.208
+log
+@-
+@
+text
+@d61 1
+@
+
+
+1.207
+log
+@-
+@
+text
+@a38 5
+cmpE :: Effects -> Effects -> Bool
+cmpE (Time _ _) (Time _ _) = True
+cmpE (Envelope _ _ _ _) (Envelope _ _ _ _) = True
+cmpE _ _ = False
+
+d52 11
+a62 12
+printPlayList :: [Notes] -> IO ()
+printPlayList ns = do putStr top
+                      printCSound (\n i -> Instrument n i) ns 1
+                      putStr mid
+                      printCSound (\n i -> PField n i) ns 1
+                      putStr end
+
+printCSound :: (Notes -> InstNum -> CSoundType) -> [Notes] -> InstNum -> IO ()
+printCSound _ [] _ = putStr ""
+printCSound cstype ((Chord ns):cs) i = printCSound cstype (ns ++ cs) i
+printCSound cstype (n:ns) i = do print (cstype n i)
+                                 printCSound cstype ns (i+1)
+a93 1
+
+@
+
+
+1.206
+log
+@-
+@
+text
+@a44 1
+--(&) n1 n2 = Chord (n1:n2:[])
+@
+
+
+1.205
+log
+@-
+@
+text
+@a35 3
+data Any = Notes
+         | Effects
+
+@
+
+
+1.204
+log
+@-
+@
+text
+@d47 1
+a47 1
+(&) :: Any -> Any -> Notes
+@
+
+
+1.203
+log
+@-
+@
+text
+@d49 1
+a49 1
+(&) (\(Note f v es) -> n) e = note f v (e:es)
+@
+
+
+1.202
+log
+@-
+@
+text
+@d49 1
+a49 1
+(&) (\Note f v es -> n) e = note f v (e:es)
+@
+
+
+1.201
+log
+@-
+@
+text
+@d36 3
+d47 3
+a49 5
+(&) :: Notes -> Effects -> Notes
+--(&) (Note f1 v1 es1) (Note f2 v2 es2) = Chord ((Note f1 v1 es1):(Note f2 v2 es2):[])
+--(&) (Note f v es) (Chord ns) = Chord ((Note f v es):ns)
+--(&) (Chord ns) (Note f v es) = Chord ((Note f v es):ns)
+(&) (Note f v es) e = note f v (e:es)
+@
+
+
+1.200
+log
+@-
+@
+text
+@a50 3
+(:) (Note f1 v1 es1) (ns) = Chord ((Note f1 v1 es1):ns)
+
+
+d101 1
+a101 1
+   (+) = (\(Note f1 v1 es1) (Note f2 v2 es2) -> Chord ((Note f1 v1 es1):(Note f2 v2 es2):[]))
+@
+
+
+1.199
+log
+@-
+@
+text
+@d51 1
+a51 1
+--(:) (Note f1 v1 es1) (Note f2 v2 es2) = Chord ((Note f1 v1 es1):(Note f2 v2 es2):[])
+@
+
+
+1.198
+log
+@-
+@
+text
+@d44 4
+a47 4
+--(&) :: Notes -> Effects -> Notes
+(&) (Note f1 v1 es1) (Note f2 v2 es2) = Chord ((Note f1 v1 es1):(Note f2 v2 es2):[])
+(&) (Note f v es) (Chord ns) = Chord ((Note f v es):ns)
+(&) (Chord ns) (Note f v es) = Chord ((Note f v es):ns)
+@
+
+
+1.197
+log
+@-
+@
+text
+@d45 3
+a47 3
+--(&) (Note f1 v1 es1) (Note f2 v2 es2) = Chord ((Note f1 v1 es1):(Note f2 v2 es2):[])
+--(&) (Note f v es) (Chord ns) = Chord ((Note f v es):ns)
+--(&) (Chord ns) (Note f v es) = Chord ((Note f v es):ns)
+@
+
+
+1.196
+log
+@-
+@
+text
+@d51 1
+a51 1
+(:) (Note f1 v1 es1) (Note f2 v2 es2) = Chord ((Note f1 v1 es1):(Note f2 v2 es2):[])
+@
+
+
+1.195
+log
+@-
+@
+text
+@d44 1
+a44 1
+(&) :: Notes -> Effects -> Notes
+@
+
+
+1.194
+log
+@-
+@
+text
+@a14 1
+           | Effects
+d44 5
+a48 5
+(&) :: Notes -> Notes -> Notes
+(&) (Note f1 v1 es1) (Note f2 v2 es2) = Chord ((Note f1 v1 es1):(Note f2 v2 es2):[])
+(&) (Note f v es) (Chord ns) = Chord ((Note f v es):ns)
+(&) (Chord ns) (Note f v es) = Chord ((Note f v es):ns)
+(&) (Note f v es) (e) = note f v (e:es)
+d51 3
+@
+
+
+1.193
+log
+@-
+@
+text
+@d45 4
+a48 1
+(&) :: Notes -> Effects -> Notes
+@
+
+
+1.192
+log
+@-
+@
+text
+@a39 3
+data Any = Notes
+         | Effects
+
+@
+
+
+1.191
+log
+@-
+@
+text
+@d13 1
+a13 4
+data Notes = Note {
+                frequency :: Frequency,
+                volume :: Volume,
+                effects :: [Effects] }
+d15 1
+d49 1
+a49 1
+(&) (Note f v es) (e::Effects) = note f v (e:es)
+a51 8
+{-
+(!) :: Notes -> Effects -> Notes
+(!) (Note f v es) e = note f v (removeEffect e es)
+
+removeEffect :: Effects -> [Effects] -> [Effects]
+removeEffect re (e:es) | re == e = es
+-}
+
+@
+
+
+1.190
+log
+@-
+@
+text
+@d51 1
+a51 1
+(&) (Note f v es) e = note f v (e:es)
+a53 1
+
+@
+
+
+1.189
+log
+@-
+@
+text
+@d14 2
+a15 2
+                frequency :: Float,
+                volume :: Float,
+@
+
+
+1.188
+log
+@-
+@
+text
+@d50 1
+a50 1
+(&) :: Any -> Effects -> Notes
+@
+
+
+1.187
+log
+@-
+@
+text
+@d50 1
+a50 1
+(&) :: Notes -> Effects -> Notes
+@
+
+
+1.186
+log
+@-
+@
+text
+@d50 1
+a50 1
+(&) :: Notes -> b -> Notes
+@
+
+
+1.185
+log
+@-
+@
+text
+@d50 1
+a50 1
+(&) :: a -> b -> Notes
+@
+
+
+1.184
+log
+@-
+@
+text
+@d50 1
+a50 1
+(&) :: a -> a -> Notes
+@
+
+
+1.183
+log
+@-
+@
+text
+@d50 1
+a50 1
+(&) :: Notes -> Effects -> Notes
+a53 1
+(:) (Note f1 v1 es1) (Note f2 v2 es2) = [f1,f2]
+@
+
+
+1.182
+log
+@-
+@
+text
+@a114 1
+       | (\(Chord ns) (Chord ns) -> Chord (ns++ns))
+@
+
+
+1.181
+log
+@-
+@
+text
+@d54 2
+@
+
+
+1.180
+log
+@-
+@
+text
+@d113 1
+a113 1
+   (+) = (\(Chord ns) (Chord ns) -> Chord (ns++ns))
+@
+
+
+1.179
+log
+@-
+@
+text
+@d113 1
+a113 5
+   (*) = error "Invalid operator on Notes"
+   (abs) = map abs
+   --(signum) = error "Invalid operator on Notes"
+   --(fromInteger) = error "Invalid operator on Notes"
+
+@
+
+
+1.178
+log
+@-
+@
+text
+@d114 1
+a114 1
+   (abs) = (abs)
+@
+
+
+1.177
+log
+@-
+@
+text
+@d114 1
+a114 1
+   (abs) =
+@
+
+
+1.176
+log
+@-
+@
+text
+@d114 1
+a114 1
+   (abs)
+@
+
+
+1.175
+log
+@-
+@
+text
+@d114 1
+a114 1
+   (abs n) = n
+@
+
+
+1.174
+log
+@-
+@
+text
+@d114 1
+a114 1
+   (abs) = Note f v es
+@
+
+
+1.173
+log
+@-
+@
+text
+@d114 1
+a114 1
+   --(abs) = n
+@
+
+
+1.172
+log
+@-
+@
+text
+@d114 1
+a114 1
+   (abs) = n
+@
+
+
+1.171
+log
+@-
+@
+text
+@d113 2
+a114 2
+   --(*) = error "Invalid operator on Notes"
+   --(abs) = error "Invalid operator on Notes"
+@
+
+
+1.170
+log
+@-
+@
+text
+@d113 4
+a116 4
+   (*) = error "Invalid operator on Notes"
+   (abs) = error "Invalid operator on Notes"
+   (signum) = error "Invalid operator on Notes"
+   (fromInteger) = error "Invalid operator on Notes"
+@
+
+
+1.169
+log
+@-
+@
+text
+@d114 5
+@
+
+
+1.168
+log
+@-
+@
+text
+@d113 1
+@
+
+
+1.167
+log
+@-
+@
+text
+@d112 1
+a112 1
+   (+) = (\(Note f1 v1 es1) (Note f2 v2 es2) -> Chord (Note f1 v1 es1) (Note f2 v2 es2))
+@
+
+
+1.166
+log
+@-
+@
+text
+@d112 1
+@
+
+
+1.165
+log
+@-
+@
+text
+@d111 2
+@
+
+
+1.164
+log
+@-
+@
+text
+@d50 1
+a50 2
+(&) :: Any -> Any -> Notes
+(&) (Notes) (Notes) = Chord (Note f1 v1 es1):(Note f2 v2 es2):[]
+d52 1
+@
+
+
+1.163
+log
+@-
+@
+text
+@d51 1
+a51 1
+(&) (Note f1 v1 es1) (Note f2 v2 es2) = Chord (Note f1 v1 es1):(Note f2 v2 es2):[]
+@
+
+
+1.162
+log
+@-
+@
+text
+@d51 1
+a51 1
+(&) n1 @@ (Note f1 v1 es1) (Note f2 v2 es2) = Chord (Note f1 v1 es1):(Note f2 v2 es2):[]
+@
+
+
+1.161
+log
+@-
+@
+text
+@d42 3
+d50 2
+a51 1
+(&) :: Notes -> Effects -> Notes
+@
+
+
+1.160
+log
+@-
+@
+text
+@d76 1
+a76 1
+printCSound cstype ((Chord ns):cs) i = printCSound cstype ns:cs i
+@
+
+
+1.159
+log
+@-
+@
+text
+@d76 1
+a76 2
+printCSound cstype ((Chord ns):cs) i = do printCSound cstype ns i
+                                          printCSound cstype cs (i+1)
+@
+
+
+1.158
+log
+@-
+@
+text
+@d76 2
+a77 3
+printCSound cstype (Chord []) i = putStr ""
+printCSound cstype (Chord (n:ns)) i = do printCSound cstype [n] i
+                                         printCSound cstype (Chord ns) (i+1)
+@
+
+
+1.157
+log
+@-
+@
+text
+@d77 1
+a77 1
+printCSound cstype (Chord (n:ns)) i = do printCSound cstype n i
+@
+
+
+1.156
+log
+@-
+@
+text
+@d76 3
+@
+
+
+1.155
+log
+@-
+@
+text
+@d17 1
+a17 1
+           | [Notes]
+@
+
+
+1.154
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.149 2013-03-03 22:54:31-08 - - $
+d17 1
+@
+
+
+1.153
+log
+@-
+@
+text
+@d81 1
+a81 1
+                                       show s ++ ", " ++ show r ++ "\nout aout*aenv"
+@
+
+
+1.152
+log
+@-
+@
+text
+@d82 1
+a82 1
+showEnvelope (e:es) = showTime es
+@
+
+
+1.151
+log
+@-
+@
+text
+@d43 1
+a43 1
+cmpE (Envelope) (Envelope) = True
+d102 1
+a102 1
+   show (Envelope) = "Envelope"
+@
+
+
+1.150
+log
+@-
+@
+text
+@d28 1
+a28 1
+checkDouble (Envelope:es) env tim = checkDouble es (env+1) tim
+@
+
+
+1.149
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.84 2013-02-28 09:22:57-08 - - $
+d31 4
+d38 1
+a38 1
+data Effects = Envelope
+d78 6
+d93 1
+a93 1
+                                       show f ++ ", 1\nout aout\nendin\n")
+@
+
+
+1.148
+log
+@-
+@
+text
+@d80 5
+a84 5
+  show (Instrument (Note f v es) i) =   (";Instument " ++ show i ++ 
+                                           "\ninstr " ++ show i ++
+                                           "\naout oscil " ++ show (v * 100) ++ ", " ++
+                                           show f ++ ", 1\nout aout\nendin\n")
+  show (PField (Note _ _ es) i) =  ("i" ++ show i ++ showTime es)
+@
+
+
+1.147
+log
+@-
+@
+text
+@a22 1
+effect [] = True
+d37 4
+d42 10
+a78 7
+(&) :: Notes -> Effects -> Notes
+(&) (Note f v es) e = Note f v (e:es)
+
+test = Note 440 50 []
+
+test1 = test&(Time 0 7)
+
+d80 1
+a80 1
+  show (Instrument (Note f v es) i) =  id (";Instument " ++ show i ++ 
+d84 1
+a84 1
+  show (PField (Note _ _ es) i) = id ("i" ++ show i ++ showTime es)
+@
+
+
+1.146
+log
+@-
+@
+text
+@d82 2
+a83 2
+   show (Note f v es) = "Note\n   Frequency   " ++ show f ++ "\n   Volume    " ++
+                        show v ++ "\n   Effects    " ++ show es
+d87 1
+@
+
+
+1.145
+log
+@-
+@
+text
+@d66 2
+a67 2
+(//) :: Notes -> Effects -> Notes
+(//) (Note f v es) e = Note f v (e:es)
+d71 1
+a71 1
+test1 = test:(Time 0 7)
+@
+
+
+1.144
+log
+@-
+@
+text
+@d66 2
+a67 2
+(,) :: Notes -> Effects -> Notes
+(,) (Note f v es) e = Note f v (e:es)
+@
+
+
+1.143
+log
+@-
+@
+text
+@d66 2
+a67 2
+(:) :: Notes -> Effects -> Notes
+(:) (Note f v es) e = Note f v (e:es)
+@
+
+
+1.142
+log
+@-
+@
+text
+@d66 2
+a67 2
+(.) :: Notes -> Effects -> Notes
+(.) (Note f v es) e = Note f v (e:es)
+d71 1
+a71 1
+test1 = test . (Time 0 7)
+@
+
+
+1.141
+log
+@-
+@
+text
+@d66 2
+a67 2
+(<.>) :: Notes -> Effects -> Notes
+(<.>) (Note f v es) e = Note f v (e:es)
+d71 1
+a71 1
+test1 = test <.> (Time 0 7)
+@
+
+
+1.140
+log
+@-
+@
+text
+@d69 4
+@
+
+
+1.139
+log
+@-
+@
+text
+@d66 2
+a67 2
+(..) :: Notes -> Effects -> Notes
+(..) (Note f v es) e = Note f v (e:es)
+@
+
+
+1.138
+log
+@-
+@
+text
+@d66 3
+@
+
+
+1.137
+log
+@-
+@
+text
+@d30 1
+a30 1
+checkDouble (Time:es) env tim = checkDouble es env (tim+1)
+@
+
+
+1.136
+log
+@-
+@
+text
+@d11 2
+d32 2
+a33 1
+defaultNote = Note 440 100 []
+d36 1
+a36 1
+             | Time
+d61 5
+d71 1
+a71 1
+  show (PField _ i) = id ("i" ++ show i ++ " 0 5\n")
+@
+
+
+1.135
+log
+@-
+@
+text
+@d25 4
+a28 5
+checkDouble [] _ _ = True
+checkDouble (Envelope:es) env tim | env < 2 && tim < 2 = checkDouble es (env+1) tim
+                                  | otherwise = False
+checkDouble (Time:es) env tim | env < 2 && tim < 2 = checkDouble es env (tim+1)
+                              | otherwise = False
+@
+
+
+1.134
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | f == 0 && v <= 100 && v >= 0  && effect es = Note f v es
+@
+
+
+1.133
+log
+@-
+@
+text
+@d18 1
+a18 1
+            | otherwise = error ("Note frequency or volume out of range")
+d26 4
+a29 1
+checkDouble (Envelope:es) env tim = checkDouble es (env+1) tim
+@
+
+
+1.132
+log
+@-
+@
+text
+@d20 1
+a20 1
+effect :: [Effects] -> Boolean
+d24 1
+a24 1
+checkDouble :: [Effects] -> Integer -> Integer -> Boolean
+@
+
+
+1.131
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | f == 0 && v <= 100 && v >= 0 = Note f v es
+d20 8
+d31 5
+d57 4
+a60 4
+  show (Instrument (Note f v e) i) =  id (";Instument " ++ show i ++ 
+                                            "\ninstr " ++ show i ++
+                                            "\naout oscil " ++ show (v * 100) ++ ", " ++
+                                            show f ++ ", 1\nout aout\nendin\n")
+@
+
+
+1.130
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | False = Note f v es--f == 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.129
+log
+@-
+@
+text
+@d33 4
+a36 4
+                       printCSound (\n i -> Instrument n i) ns 1
+                       putStr mid
+                       printCSound (\n i -> PField n i) ns 1
+                       putStr end
+@
+
+
+1.128
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | False = Just (Note f v es)--f == 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.127
+log
+@-
+@
+text
+@d32 1
+a32 1
+printPlayList mns = do putStr top
+@
+
+
+1.126
+log
+@-
+@
+text
+@d16 1
+a16 1
+note :: Frequency -> Volume -> [Effects] -> Maybe Notes
+d18 1
+a18 1
+            | otherwise = fail ("Note frequency or volume out of range")
+d32 5
+a36 5
+printPlayList ns = do putStr top
+                      printCSound (\n i -> Instrument n i) ns 1
+                      putStr mid
+                      printCSound (\n i -> PField n i) ns 1
+                      putStr end
+@
+
+
+1.125
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | False = Note f v es--f == 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.124
+log
+@-
+@
+text
+@d16 1
+a16 1
+note :: Frequency -> Volume -> [Effects] -> Notes
+@
+
+
+1.123
+log
+@-
+@
+text
+@d18 1
+a18 1
+            | otherwise = error ("Note frequency or volume out of range")
+@
+
+
+1.122
+log
+@-
+@
+text
+@d51 6
+@
+
+
+1.121
+log
+@-
+@
+text
+@a49 1
+instance Num Notes where
+@
+
+
+1.120
+log
+@-
+@
+text
+@d11 1
+a11 1
+newtype Notes = Note {
+a14 1
+   deriving Ord
+d17 1
+a17 1
+note f v es | f == 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.119
+log
+@-
+@
+text
+@d11 1
+a11 1
+data Notes = Note {
+@
+
+
+1.118
+log
+@-
+@
+text
+@d51 2
+@
+
+
+1.117
+log
+@-
+@
+text
+@a20 2
+test :: Float -> Float
+
+@
+
+
+1.116
+log
+@-
+@
+text
+@d15 1
+d21 2
+@
+
+
+1.115
+log
+@-
+@
+text
+@d7 2
+a8 2
+--type Frequency = Float
+--type Volume = Float
+a10 3
+data NoteNums n = Frequency n
+                | Volume n
+
+d16 2
+a17 2
+note :: (Ord n) => NoteNums n -> NoteNums n -> [Effects] -> Notes
+note (Frequency f) (Volume v) es | f == 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.114
+log
+@-
+@
+text
+@d11 2
+a12 2
+data NoteNums Float = Frequency Float
+                    | Volume Float
+@
+
+
+1.113
+log
+@-
+@
+text
+@d11 2
+a12 2
+data NoteNums n = Frequency n
+                | Volume n
+@
+
+
+1.112
+log
+@-
+@
+text
+@d20 1
+a20 1
+note f v es | f == 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.111
+log
+@-
+@
+text
+@d11 2
+a12 2
+data NoteNums k = Frequency k
+                | Volume k
+d19 1
+a19 1
+note :: (Ord n) => Frequency n -> Volume n -> [Effects] -> Notes
+@
+
+
+1.110
+log
+@-
+@
+text
+@d11 2
+a12 2
+data NoteNums = Frequency Float
+              | Volume Float
+@
+
+
+1.109
+log
+@-
+@
+text
+@d19 1
+a19 1
+note :: (Ord k) => k -> k -> [Effects] -> Notes
+@
+
+
+1.108
+log
+@-
+@
+text
+@d7 2
+a8 2
+type Frequency = Float
+type Volume = Float
+d11 3
+@
+
+
+1.107
+log
+@-
+@
+text
+@d16 1
+a16 1
+note :: (Ord f) => f -> f -> [Effects] -> Notes
+@
+
+
+1.106
+log
+@-
+@
+text
+@d16 1
+a16 1
+note :: (Ord a) => a -> a -> [Effects] -> Notes
+@
+
+
+1.105
+log
+@-
+@
+text
+@d16 1
+a16 1
+note :: (Num a) => Frequency -> Volume -> [Effects] -> Notes
+@
+
+
+1.104
+log
+@-
+@
+text
+@d16 1
+a16 1
+note :: Frequency -> Volume -> [Effects] -> Notes
+@
+
+
+1.103
+log
+@-
+@
+text
+@a14 1
+   deriving (Eq, Ord, Show)
+d17 1
+a17 1
+note f v es | f >= 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.102
+log
+@-
+@
+text
+@d15 1
+d17 1
+a17 1
+note :: Float -> Volume -> [Effects] -> Notes
+@
+
+
+1.101
+log
+@-
+@
+text
+@d16 3
+a18 3
+note :: Frequency -> Volume -> [Effects] -> Notes
+note f v es | False && f >= 0 && v <= 100 && v >= 0 = Note f v es
+            | True = error ("Note frequency or volume out of range")
+@
+
+
+1.100
+log
+@-
+@
+text
+@d18 1
+a18 1
+            | otherwise = error ("Note frequency or volume out of range")
+@
+
+
+1.99
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | false && f >= 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.98
+log
+@-
+@
+text
+@d17 1
+a17 1
+note f v es | f >= 0 && v <= 100 && v >= 0 = Note f v es
+@
+
+
+1.97
+log
+@-
+@
+text
+@d16 3
+a18 3
+note :: Notes -> Notes
+note (Note f v es) | f >= 0 && v <= 100 && v >= 0 = Note f v es
+                   | otherwise = error ("Note frequency or volume out of range")
+@
+
+
+1.96
+log
+@-
+@
+text
+@d18 1
+a18 1
+                   | otherwise = error ("Frequency or Volume out of range")
+@
+
+
+1.95
+log
+@-
+@
+text
+@d18 1
+@
+
+
+1.94
+log
+@-
+@
+text
+@d17 1
+a17 1
+note (Note f v e) | f >= 0 && v <= 100 && v >= 0 = Note f v e
+@
+
+
+1.93
+log
+@-
+@
+text
+@d16 4
+a19 1
+note = Note 440 100 []
+@
+
+
+1.92
+log
+@-
+@
+text
+@d7 2
+@
+
+
+1.91
+log
+@-
+@
+text
+@a6 2
+type Frequency = Float
+type Volume = Float
+a8 2
+--data Notes = Note Frequency Volume (Maybe [Effects])
+
+@
+
+
+1.90
+log
+@-
+@
+text
+@d42 1
+a42 1
+  show (Instrument (Note f v Nothing) i) =  id (";Instument " ++ show i ++ 
+@
+
+
+1.89
+log
+@-
+@
+text
+@d18 1
+a18 1
+note = 440 100 []
+@
+
+
+1.88
+log
+@-
+@
+text
+@d18 2
+@
+
+
+1.87
+log
+@-
+@
+text
+@d11 6
+a16 1
+data Notes = Note Frequency Volume (Maybe [Effects])
+@
+
+
+1.86
+log
+@-
+@
+text
+@d35 4
+a38 4
+  show (Instrument (Note f v) i) =  id (";Instument " ++ show i ++ 
+                                        "\ninstr " ++ show i ++
+                                        "\naout oscil " ++ show (v * 100) ++ ", " ++
+                                        show f ++ ", 1\nout aout\nendin\n")
+@
+
+
+1.85
+log
+@-
+@
+text
+@d11 1
+a11 1
+data Notes = Note Frequency Volume (Maybe [Effects]
+@
+
+
+1.84
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.83 2013-02-27 17:18:49-08 - - $
+d11 3
+a13 1
+data Notes = Note Frequency Volume
+@
+
+
+1.83
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.82 2013-02-27 17:11:09-08 - - $
+a6 4
+top = "<CsoundSynthesizer>\n<CsOptions>\n-odac -d\n</CsOptions>\n<CsInstruments>\n"
+mid = "</CsInstruments>\n<CsScore>\n;Function\nf1 0 1024 10 1\n\n"
+end = "</CsScore>\n</CsoundSynthesizer>\n"
+
+d16 4
+d28 3
+a30 4
+--printCSound _ [] _ = putStr ""
+--printCSound cstype (n:ns) i = do print (cstype n i)
+--                                 printCSound cstype ns (i+1)
+printCSound cstype ns i = foldr (print (putStr "") ns)
+@
+
+
+1.82
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.81 2013-02-27 17:04:03-08 - - $
+a14 2
+type NoteList = [Notes]
+
+a15 1
+           | Chord [Notes]
+d31 1
+a31 1
+printCSound cstype ns i = foldl (print (putStr "") ns)
+@
+
+
+1.81
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.80 2013-02-27 17:02:23-08 - - $
+d7 1
+a7 1
+header = "<CsoundSynthesizer>\n<CsOptions>\n-odac -d\n</CsOptions>\n<CsInstruments>\n"
+d24 1
+a24 1
+printPlayList ns = do putStr header
+d34 1
+a34 1
+printCSound cstype ns i = print (map cstype (ns i))
+@
+
+
+1.80
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.79 2013-02-27 17:01:36-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = print (map (\g -> g+1) (map cstype ns))
+@
+
+
+1.79
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.78 2013-02-27 17:01:20-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = print (map (map cstype ns))
+@
+
+
+1.78
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.77 2013-02-27 17:01:04-08 - - $
+a35 2
+m = map cstype ns 
+
+@
+
+
+1.77
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.76 2013-02-27 17:00:50-08 - - $
+d34 3
+a36 1
+printCSound cstype ns i = print (map (map cstype ns) 
+@
+
+
+1.76
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.75 2013-02-27 17:00:26-08 - - $
+a35 1
+m = map cstype ns
+@
+
+
+1.75
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.74 2013-02-27 15:08:45-08 - - $
+a33 1
+m = map cstype ns
+d36 1
+@
+
+
+1.74
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.73 2013-02-27 15:07:59-08 - - $
+d34 2
+a35 1
+printCSound cstype ns i = print (map cstype (ns i))
+@
+
+
+1.73
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.72 2013-02-27 15:05:35-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = foldl show "" (map cstype (ns i))
+@
+
+
+1.72
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.71 2013-02-27 15:05:04-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = foldl print "" (map cstype (ns i))
+@
+
+
+1.71
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.70 2013-02-27 14:55:11-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = map cstype (ns i)
+@
+
+
+1.70
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.69 2013-02-27 14:54:51-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = foldl cstype "" (ns i)
+@
+
+
+1.69
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.68 2013-02-27 14:32:12-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = foldl (print (cstype)) "" (ns i)
+@
+
+
+1.68
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.67 2013-02-27 14:27:29-08 - - $
+d34 1
+a34 1
+printCSound cstype ns i = foldl (print (cstype)) "" ns
+@
+
+
+1.67
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.66 2013-02-27 14:26:22-08 - - $
+a19 4
+--data Instruments = Instrument Notes InstNum
+
+--data PFields = PField Notes InstNum
+
+d31 5
+a35 23
+printCSound _ [] _ = putStr ""
+printCSound cstype (n:ns) i = do print (cstype n i)
+                                 printCSound cstype ns (i+1)
+
+printInstruments :: [Notes] -> Integer -> IO ()
+printInstruments [] _ = putStr "" 
+printInstruments (n:ns) i = do print (Instrument n i) 
+                               printInstruments ns (i+1)
+
+printPFields :: [Notes] -> Integer -> IO ()
+printPFields [] _ = putStr ""
+printPFields (n:ns) i = do print (PField n i)
+                           printPFields ns (i+1)
+{-
+instance Show Instruments where
+   show (Instrument (Note f v) i) =  id (";Instument " ++ show i ++ 
+                                         "\ninstr " ++ show i ++
+                                         "\naout oscil " ++ show (v * 100) ++ ", " ++
+                                         show f ++ ", 1\nout aout\nendin\n")
+
+instance Show PFields where
+   show (PField _ i) = id ("i" ++ show i ++ " 0 5\n")
+-}
+@
+
+
+1.66
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.65 2013-02-27 14:26:10-08 - - $
+a28 1
+                      --printInstruments ns 1
+d31 1
+a31 1
+                      printPFields ns 1
+@
+
+
+1.65
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.64 2013-02-27 14:25:33-08 - - $
+d25 1
+a25 1
+                | PFields Notes InstNum
+@
+
+
+1.64
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.63 2013-02-27 14:20:30-08 - - $
+d49 1
+a49 1
+/*
+d58 1
+a58 1
+*/
+@
+
+
+1.63
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.62 2013-02-27 14:19:19-08 - - $
+d20 1
+a20 1
+data Instruments = Instrument Notes InstNum
+d22 1
+a22 1
+data PFields = PField Notes InstNum
+d24 2
+a25 2
+data CSoundType = Instruments
+                | PFields
+d49 1
+a49 1
+
+d58 7
+a65 2
+instance Show CSoundType where
+   show a = show a
+@
+
+
+1.62
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.61 2013-02-27 14:17:34-08 - - $
+d29 2
+a30 1
+                      printInstruments ns 1
+@
+
+
+1.61
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.60 2013-02-27 14:17:26-08 - - $
+d58 3
+@
+
+
+1.60
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.59 2013-02-27 14:07:23-08 - - $
+d34 1
+a34 1
+printCSound :: (Note -> InstNum -> CSoundType) -> [Notes] -> InstNum -> IO ()
+@
+
+
+1.59
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.58 2013-02-27 14:05:53-08 - - $
+d8 1
+a8 1
+mid = "</CsInstruments>\n<CsScore>\n;Function\nf1 0 1024 10 1\n"
+d24 2
+a25 2
+data CSoundType a b = Instruments
+                    | PFields
+d34 4
+a37 4
+--printCSound :: CSoundType a b -> [Notes] -> InstNum -> IO ()
+--printCSound _ [] _ = putStr ""
+--printCSound cstype (n:ns) i = do print (cstype n i)
+--                                 printCSound cstype ns (i+1)
+@
+
+
+1.58
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.57 2013-02-27 14:05:01-08 - - $
+d34 4
+a37 4
+printCSound :: CSoundType a b -> [Notes] -> InstNum -> IO ()
+printCSound _ [] _ = putStr ""
+printCSound cstype (n:ns) i = do print (cstype n i)
+                                 printCSound cstype ns (i+1)
+@
+
+
+1.57
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.56 2013-02-27 13:59:12-08 - - $
+d24 2
+a25 2
+data CSoundType a b = Instrument a b
+                    | PField a b
+d34 1
+a34 1
+printCSound :: CSoundType -> [Notes] -> InstNum -> IO ()
+@
+
+
+1.56
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.55 2013-02-27 13:58:51-08 - - $
+d24 2
+a25 2
+data CSoundType a b = Instruments a b
+                    | PFields a b
+@
+
+
+1.55
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.54 2013-02-27 13:58:27-08 - - $
+d37 1
+a37 1
+                                 printCSound ns (i+1)
+@
+
+
+1.54
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.53 2013-02-27 13:57:45-08 - - $
+d24 2
+a25 2
+data CSoundType a b = Instruments
+                    | PFields
+@
+
+
+1.53
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.52 2013-02-27 13:55:00-08 - - $
+d24 2
+a25 2
+data CSoundType = Instruments
+                | PFields
+@
+
+
+1.52
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.51 2013-02-27 13:54:50-08 - - $
+d24 2
+a25 2
+data CSounds = Instruments
+             | PFields
+d34 4
+@
+
+
+1.51
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.50 2013-02-27 13:53:07-08 - - $
+a33 1
+printCSound :: 
+@
+
+
+1.50
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.49 2013-02-27 13:52:20-08 - - $
+d24 3
+d34 2
+d53 1
+a53 1
+   show (PField _ i) = id ("i" ++ show i ++ " 0 5")
+@
+
+
+1.49
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.48 2013-02-27 13:46:33-08 - - $
+d45 2
+a46 2
+                                         show f ++ ", 1\nout aout\nendin\ni" ++
+                                         show i ++ " 0 5\n")
+@
+
+
+1.48
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.47 2013-02-27 13:46:12-08 - - $
+d22 1
+d28 1
+d31 1
+a31 1
+printInstruments:: [Notes] -> Integer -> IO ()
+a33 1
+                               putStr "stitch\n"
+d36 5
+d45 1
+a45 1
+                                         show f ++ ", 1\nout aout\nendin\nstitch\ni" ++
+d47 2
+@
+
+
+1.47
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.46 2013-02-27 13:45:34-08 - - $
+d33 1
+a33 1
+                               printPlayList ns (i+1)
+@
+
+
+1.46
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.45 2013-02-27 13:41:27-08 - - $
+d32 2
+a33 2
+                            putStr "stitch\n"
+                            printPlayList ns (i+1)
+@
+
+
+1.45
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.44 2013-02-25 22:41:28-08 - - $
+d22 10
+a31 3
+printPlayList:: [Notes] -> Integer -> IO ()
+printPlayList [] _ = putStr "" 
+printPlayList (n:ns) i = do print (Instrument n i) 
+@
+
+
+1.44
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.43 2013-02-25 16:07:54-08 - - $
+d7 4
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.42 2013-02-25 16:06:15-08 - - $
+d18 1
+a18 1
+printPlayList::NoteList -> Integer -> IO ()
+a30 1
+instance List a => Notes where
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.41 2013-02-25 16:05:18-08 - - $
+d31 1
+a31 2
+(++) :: Notes -> Notes -> [Notes]
+(++) = (\(Chord ns1) (Chord ns2) -> ns1 ++ ns2)
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.40 2013-02-25 16:03:18-08 - - $
+d32 1
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.39 2013-02-25 16:02:58-08 - - $
+a29 2
+instance List Notes where
+   (++) :: [a] -> [a] -> [a]
+d31 1
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.38 2013-02-25 16:02:26-08 - - $
+d30 1
+a30 1
+class List a where
+@
+
+
+1.38
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.37 2013-02-25 16:01:17-08 - - $
+d30 2
+a31 1
+class List Notes where
+@
+
+
+1.37
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.36 2013-02-25 16:01:08-08 - - $
+d30 1
+a30 1
+instance List Notes where
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.35 2013-02-25 16:00:22-08 - - $
+d30 1
+a30 1
+instance (++) Notes where
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.34 2013-02-25 15:55:46-08 - - $
+d30 1
+a30 2
+class AddNotes where
+   (++) :: Notes -> [Notes]
+@
+
+
+1.34
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.33 2013-02-25 15:55:01-08 - - $
+d30 2
+a31 2
+instance [Notes] where
+   (++) = (\(Chord ns1) (Chord ns2) -> (ns1 ++ ns2))
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.32 2013-02-25 15:37:04-08 - - $
+d30 1
+a30 1
+instance Notes where
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.31 2013-02-24 21:42:07-08 - - $
+d30 1
+a30 1
+instance List Notes where
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.30 2013-02-22 20:46:41-08 - - $
+d30 2
+a31 1
+
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.29 2013-02-22 20:45:54-08 - - $
+a10 2
+num = 0
+
+d18 1
+a18 1
+printPlayList::[Notes]-> Integer -> IO ()
+a23 12
+getInstNum::Integer->Integer
+getInstNum n = n + 1
+
+instance Show Notes where
+   show (Note a b) = id (";Instument " ++ show (getInstNum num) ++ 
+                         "\ninstr " ++ show (getInstNum num) ++
+                         "\naout oscil " ++ show (b * 100) ++ ", " ++
+                         show a ++ ", 1\nout aout\nendin\nstitch\ni" ++
+                         show (getInstNum num) ++ " 0 5\n")
+   showList [] = showString ""
+   showList (n:ns) = shows n . showString "stitch\n" . shows ns
+
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.28 2013-02-22 20:43:45-08 - - $
+d21 1
+a21 1
+printPlayList [] _ = print 
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.27 2013-02-22 20:43:17-08 - - $
+d21 1
+a21 1
+printPlayList [] _ = print ()
+@
+
+
+1.27
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.26 2013-02-22 20:42:09-08 - - $
+d23 1
+a23 1
+                            putStr ("stitch\n")
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.25 2013-02-22 20:38:35-08 - - $
+d23 1
+a23 1
+                            print (showString "stitch\n")
+@
+
+
+1.25
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.24 2013-02-22 20:36:16-08 - - $
+d23 1
+a23 1
+                            print ("stitch\n")
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.23 2013-02-22 20:34:55-08 - - $
+d23 2
+a24 1
+                            printPlayList (ns (i+1))
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.22 2013-02-22 20:32:31-08 - - $
+d23 1
+a23 1
+                            printPlayList ns (i+1)
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.21 2013-02-22 20:32:11-08 - - $
+d37 8
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.20 2013-02-22 20:31:52-08 - - $
+d22 2
+a23 1
+printPlayList (n:ns) i = print (Instrument n i) ++ printPlayList ns (i+1)
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.19 2013-02-22 20:31:28-08 - - $
+d22 1
+a22 1
+printPlayList (n:ns) i = print (Instrument n i) . printPlayList ns (i+1)
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.18 2013-02-22 20:30:48-08 - - $
+d21 1
+a21 1
+printPlayList [] _ = ()
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.17 2013-02-22 20:19:35-08 - - $
+d9 3
+a11 1
+type Num = Integer
+d18 1
+a18 1
+data Instruments = Instrument Notes Num
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.16 2013-02-22 20:14:38-08 - - $
+a6 2
+num = 0
+
+d16 6
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.15 2013-02-22 20:14:24-08 - - $
+d11 1
+d22 1
+a22 2
+   show (Note a b) = do num<-getInstNum num
+                        id (";Instument " ++ show (getInstNum num) ++ 
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.14 2013-02-22 20:10:58-08 - - $
+d22 1
+a22 1
+                     id (";Instument " ++ show (getInstNum num) ++ 
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.13 2013-02-22 20:04:24-08 - - $
+d18 1
+a18 2
+getInstNum n = do num <- n + 1
+               return num
+d21 2
+a22 1
+   show (Note a b) = id (";Instument " ++ show (getInstNum num) ++ 
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.12 2013-02-22 19:22:19-08 - - $
+d18 2
+a19 1
+getInstNum n = n + 1
+d22 1
+a22 1
+   show (Note a b) i = id (";Instument " ++ show (getInstNum num) ++ 
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.11 2013-02-22 19:21:29-08 - - $
+d21 1
+a21 1
+   show (Note a b) = id (";Instument " ++ show (getInstNum num) ++ 
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.10 2013-02-22 17:22:25-08 - - $
+d24 1
+a24 1
+                         show a ++ ", 1\nout aout\nendin\n;stitch\ni" ++
+d27 1
+a27 1
+   showList (n:ns) = shows n . showString ";stitch\n" . shows ns
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.9 2013-02-22 17:18:05-08 - - $
+d27 1
+a27 1
+   showList (n:ns) = shows n . showString "\n" . shows ns
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.8 2013-02-22 17:17:25-08 - - $
+d22 1
+a22 1
+                         " stitch\ninstr " ++ show (getInstNum num) ++
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.7 2013-02-22 16:19:12-08 - - $
+d22 1
+a22 1
+                         " stitchI\ninstr " ++ show (getInstNum num) ++
+d24 1
+a24 1
+                         show a ++ ", 1\nout aout\nendin\n;stitchP\ni" ++
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.6 2013-02-22 16:18:49-08 - - $
+d22 1
+a22 1
+                         "stitchI\ninstr " ++ show (getInstNum num) ++
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.5 2013-02-22 16:00:30-08 - - $
+d25 1
+a25 1
+                         show (getInstNum num) ++ " 0 5\n"i)
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.4 2013-02-22 15:59:09-08 - - $
+d7 2
+d17 3
+d21 5
+a25 2
+   show (Note a b) = id (";Instument 1 stitch\ninstr 1\naout oscil " ++ show (b * 100) ++ ", " ++
+                          show a ++ ", 1\nout aout\nendin\n")
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.3 2013-02-22 15:58:01-08 - - $
+d16 1
+a16 1
+   show (Note a b) = id ("instr 1\naout oscil " ++ show (b * 100) ++ ", " ++
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.2 2013-02-22 15:57:31-08 - - $
+d17 1
+a17 1
+                          show a ++ "1\nout aout\nendin\n")
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.1 2013-02-08 15:07:51-08 nicholassmith - $
+d16 1
+a16 1
+   show (Note a b) = id ("instr 1\naout oscil " show (b * 100) ++ ", " ++
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: Haudio.hs,v 1.1 2013-02-08 15:05:59-08 nicholassmith - $
+d16 2
+a17 2
+   show (Note a b) = id ("#define FREQ (" ++
+                          show a ++ ")\n")
+@
