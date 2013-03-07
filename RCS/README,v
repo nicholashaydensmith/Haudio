@@ -1,4 +1,26 @@
-$Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2013.03.07.01.01.27;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@$Id:$
 ######################################################
 #  Haudio
 #  
@@ -32,3 +54,4 @@ $Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
                        Or:
                                   $ make interactive
                        Which will run it using ghci.
+@

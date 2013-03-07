@@ -1,7 +1,6 @@
-# $Id: Makefile,v 1.39 2013-03-06 17:01:27-08 - - $
+# $Id: Makefile,v 1.39 2013-03-06 12:55:33-08 - - $
 
 MKFILE = Makefile
-README = README
 HSRC   = src/Haudio.hs src/NoteTable.hs
 HOUT   = tmp/out.hs
 HSRCD  = $(HOUT) $(HSRC)
@@ -33,5 +32,5 @@ clean:
 	rm $(JUNK)
 
 cid:
-	cid + $(HSRC) $(MKFILE) $(README)
+	cid + $(HSRC) $(MKFILE)
 

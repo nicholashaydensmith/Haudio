@@ -1,10 +1,11 @@
--- $Id: Haudio.hs,v 1.312 2013-03-06 17:01:27-08 - - $
+-- $Id: Haudio.hs,v 1.311 2013-03-06 00:36:57-08 - - $
 
 module Haudio where
 
 import Data.List
 import Data.Maybe
 import System.Process
+import GHC.IO.Handle
 
 type Frequency = Float
 type Volume = Float

@@ -1,17 +1,14 @@
--- $Id: Haudio.hs,v 1.312 2013-03-06 17:01:27-08 - - $
+-- $Id: Haudio.hs,v 1.154 2013-03-04 13:30:34-08 - - $
 
 module Haudio where
 
 import Data.List
-import Data.Maybe
-import System.Process
 
 type Frequency = Float
 type Volume = Float
 type InstNum = Integer
 
-emptyNote :: Notes
-emptyNote = Chord []
+defaultNote = Note 440 100 []
 
 data Notes = Note Frequency Volume [Effects]
            | Chord [Notes]
@@ -52,36 +49,18 @@ top = "<CsoundSynthesizer>\n<CsOptions>\n-odac -d\n</CsOptions>\n<CsInstruments>
 mid = "</CsInstruments>\n<CsScore>\n;Function\nf1 0 1024 10 1\n\n"
 end = "</CsScore>\n</CsoundSynthesizer>\n"
 
-outFile = "tmp/main.csd"
-outLog = "tmp/out.log"
-errLog = "tmp/err.log"
+printPlayList :: [Notes] -> IO ()
+printPlayList ns = do putStr top
+                      printCSound (\n i -> Instrument n i) ns 1
+                      putStr mid
+                      printCSound (\n i -> PField n i) ns 1
+                      putStr end
 
-play :: Notes -> IO ()
-play n = do writeFile outFile contents
-            (exitStatus,stdout,stderr) <- readProcessWithExitCode cmd args ""
-            writeFile outLog stdout
-            writeFile errLog stderr where
-               contents = (fromJust (fillContents n))
-               cmd = "csound"
-               args = ["-d","-odac","tmp/main.csd"]
-
-playNoFork :: Notes -> IO ()
-playNoFork n = do writeFile outFile contents where
-                  contents = (fromJust (fillContents n))
-
-fillContents :: Notes -> Maybe String
-fillContents n = do insts <- printCSound (\n i -> Instrument n i) (Chord [n]) 1
-                    pflds <- printCSound (\n i -> PField n i) (Chord [n]) 1
-                    Just (top ++ insts ++ mid ++ pflds ++ end)
- 
-printCSound :: (Notes -> InstNum -> CSoundType) -> Notes -> InstNum -> Maybe String
-printCSound _ (Chord []) _ = Just ""
-printCSound cstype (Chord ((Chord ns):cs)) i = printCSound cstype (Chord (ns ++ cs)) i
-printCSound cstype (Chord (n:ns)) i = do rest <- printCSound cstype (Chord ns) (i+1)
-                                         Just ((show (cstype n i)) ++ rest)
-printCSound _ _ _ = Nothing
-
--------------------------------------------------------------------------------------
+printCSound :: (Notes -> InstNum -> CSoundType) -> [Notes] -> InstNum -> IO ()
+printCSound _ [] _ = putStr ""
+printCSound cstype ((Chord ns):cs) i = printCSound cstype (ns ++ cs) i
+printCSound cstype (n:ns) i = do print (cstype n i)
+                                 printCSound cstype ns (i+1)
 
 showEnvelope :: [Effects] -> String
 showEnvelope [] = "out aout\n"
@@ -105,7 +84,6 @@ instance Show CSoundType where
 instance Show Notes where
    show (Note f v es) = ("Note \n   Frequency   " ++ show f ++ "\n   Volume      " ++
                                 show v ++ "\n   Effects     " ++ show es)
-   show (Chord (n:ns)) = show n ++ "\n" ++ show ns
 
 instance Show Effects where
    show (Envelope a d s r) = "Envelope"

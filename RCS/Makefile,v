@@ -1,0 +1,821 @@
+head	1.39;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.39
+date	2013.03.07.01.01.27;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2013.03.06.20.15.42;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2013.03.06.20.15.20;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2013.03.06.20.12.26;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2013.03.06.20.11.36;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2013.03.06.20.07.57;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2013.03.06.19.58.50;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2013.03.06.19.57.49;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2013.03.06.19.57.26;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2013.03.06.19.57.01;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2013.03.06.19.48.33;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2013.03.06.19.47.58;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2013.03.06.19.47.15;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2013.03.06.19.37.32;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2013.03.06.08.34.53;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.03.06.08.24.56;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.03.06.08.23.54;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.03.06.08.23.19;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.03.06.08.13.55;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.03.06.08.11.13;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.03.06.07.41.32;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.03.06.07.28.24;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.03.06.05.21.24;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.03.06.03.17.21;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.03.05.05.15.31;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.03.05.05.15.18;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.28.18.43.38;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.28.18.35.16;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.28.17.35.00;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.28.17.30.47;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.28.17.30.05;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.28.17.29.53;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.28.17.29.23;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.28.17.22.57;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.27.21.41.27;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.23.03.18.39;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.22.23.53.53;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.22.23.51.11;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.11.20.57.34;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.39
+log
+@-
+@
+text
+@# $Id: Makefile,v 1.38 2013-03-06 12:15:42-08 - - $
+
+MKFILE = Makefile
+README = README
+HSRC   = src/Haudio.hs src/NoteTable.hs
+HOUT   = tmp/out.hs
+HSRCD  = $(HOUT) $(HSRC)
+HOBJ   = $(HSRC:.hs=.o) $(HOUT:.hs=.o)
+HHI    = $(HSRC:.hs=.hi) $(HOUT:.hs=.o)
+HBIN   = tmp/$(HOBJ) tmp/$(HHI)
+JUNK   = tmp/$(HOBJ) tmp/$(HHI) $(HEXE)
+HEXE   = tmp/out
+ISCRPT = src/interactive.command
+
+GHC    = ghc -w
+GHCI   = ghci -w
+PKGS   = -package ghc
+
+all: cid ghc runHaskell
+
+interactive: cid ghci
+
+ghc:
+	$(GHC) $(HSRCD) 
+
+ghci:
+	open $(ISCRPT)
+
+runHaskell:
+	$(HEXE)
+
+clean:
+	rm $(JUNK)
+
+cid:
+	cid + $(HSRC) $(MKFILE) $(README)
+
+@
+
+
+1.38
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.37 2013-03-06 12:15:20-08 - - $
+d4 1
+d27 1
+a27 2
+	#open $(ISCRPT)
+	src/interactive.scpt
+d36 1
+a36 1
+	cid + $(HSRC) $(MKFILE)
+@
+
+
+1.37
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.36 2013-03-06 12:12:26-08 - - $
+d27 1
+a27 1
+	osascript src/interactive.scpt
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.35 2013-03-06 12:11:36-08 - - $
+d27 1
+a27 1
+	osascript -e 'tell app "Terminal" do script "ghci" end tell'
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.34 2013-03-06 12:07:57-08 - - $
+d27 1
+a27 1
+	osascript -e 'tell app "Terminal" do script "ghci"'
+@
+
+
+1.34
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.33 2013-03-06 11:58:50-08 - - $
+d26 2
+a27 1
+	open $(ISCRPT)
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.32 2013-03-06 11:57:49-08 - - $
+d26 1
+a26 1
+	open $(ISCRPT) --args $(GHCI) $(HSRCD) $(PKGS)
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.31 2013-03-06 11:57:26-08 - - $
+d26 1
+a26 1
+	open "$(ISCRPT) $(GHCI) $(HSRCD) $(PKGS)"
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.30 2013-03-06 11:57:01-08 - - $
+d26 1
+a26 1
+	open -a Terminal "$(ISCRPT) $(GHCI) $(HSRCD) $(PKGS)"
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.29 2013-03-06 11:48:33-08 - - $
+d26 1
+a26 1
+	open -a Terminal $(ISCRPT) $(GHCI) $(HSRCD) $(PKGS)
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.28 2013-03-06 11:47:58-08 - - $
+d26 1
+a26 1
+	$(ISCRPT) $(GHCI) $(HSRCD) $(PKGS)
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.27 2013-03-06 11:47:15-08 - - $
+d26 1
+a26 1
+	open $(ISCRPT) --args $(GHCI) $(HSRCD) $(PKGS)
+@
+
+
+1.27
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.26 2013-03-06 11:37:32-08 - - $
+d26 1
+a26 1
+	open $(ISCRPT) $(GHCI) $(HSRCD) $(PKGS)
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.25 2013-03-06 00:34:53-08 - - $
+d15 2
+a16 1
+GHCI   = ghci
+d26 1
+a26 1
+	open $(ISCRPT) --args yo
+@
+
+
+1.25
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.24 2013-03-06 00:24:56-08 - - $
+d25 1
+a25 1
+	open $(ISCRPT)
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.23 2013-03-06 00:23:54-08 - - $
+a24 1
+	$(GHC) $(HSRCD)
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.22 2013-03-06 00:23:19-08 - - $
+d26 1
+a26 1
+	open ($(ISCRPT) $(HSRCD))
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.21 2013-03-06 00:13:55-08 - - $
+d26 1
+a26 1
+	open $(ISCRPT) $(HSRCD)
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.20 2013-03-06 00:11:13-08 - - $
+d26 1
+a26 1
+	open $(ISCRPT)
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.19 2013-03-05 23:41:32-08 - - $
+d12 1
+a12 1
+ISCRPT = src/interactive.sh
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.18 2013-03-05 23:28:24-08 - - $
+d12 1
+a12 1
+ISCRPT = src/interactive.command
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.17 2013-03-05 21:21:24-08 - - $
+d12 1
+d14 1
+a14 1
+GHC    = ghc #-w
+d25 2
+a26 1
+	$(GHCI) $(HSRCD)
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.16 2013-03-05 19:17:21-08 - - $
+d6 1
+a6 1
+HSRCD  = $(HSRC) $(HOUT)
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.15 2013-03-04 21:15:31-08 - - $
+d27 1
+a27 1
+	$(HEXE) #1> tmp/main.csd
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.14 2013-03-04 21:15:18-08 - - $
+d27 1
+a27 1
+	$(HEXE) 1> tmp/main.csd
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.13 2013-02-28 10:43:38-08 - - $
+d13 1
+a13 1
+GHC    = ghc -w
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.12 2013-02-28 10:35:16-08 - - $
+d13 1
+a13 1
+GHC    = ghc
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.6 2013-02-28 09:22:57-08 - - $
+d21 1
+a21 1
+	$(GHC) tmp/out.hs 
+@
+
+
+1.11
+log
+@-
+@
+text
+@d21 1
+a21 1
+	$(GHC) src/Haudio.o src/NoteTable.o -o tmp/out.hs 
+@
+
+
+1.10
+log
+@-
+@
+text
+@d21 1
+a21 1
+	$(GHC) src/Haudio.o tmp/out.hs 
+@
+
+
+1.9
+log
+@-
+@
+text
+@d21 1
+a21 1
+	$(GHC) src/Haudio.o src/NoteTable.o tmp/out.hs 
+@
+
+
+1.8
+log
+@-
+@
+text
+@d21 1
+a21 1
+	$(GHC) src/Haudio.o src/NoteTable.o tmp/out.hs ##$(HSRCD)
+@
+
+
+1.7
+log
+@-
+@
+text
+@d21 1
+a21 1
+	$(GHC) src/Haudio.o src/NoteTable.o tmp/out.hs #$(HSRCD)
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.5 2013-02-27 13:41:27-08 - - $
+d21 1
+a21 1
+	$(GHC) $(HSRCD)
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.4 2013-02-22 19:18:39-08 - - $
+a3 5
+CSRC   = tmp/main.c
+#CSRC   = zztest/sinewave.c     ######################### TEST LINE 1 #
+#CSRC   = zztest/patest_multi_sine.c ##################### TEST LINE 2
+#CSRC   = zztest/patest_ringmix.c
+COBJ   = $(CSRC:.c=.o)
+d10 1
+a10 2
+HSTCH  = out.stitch
+JUNK   = tmp/$(HOBJ) tmp/$(HHI) tmp/$(HSTCH) $(COBJ) $(EXES)
+a11 11
+CEXE   = tmp/main
+EXES   = $(CEXE) $(HEXE)
+STITCH = src/stitch.pl
+
+LIBPA  = /usr/local/lib/libportaudio.a
+FWCA   = -framework CoreAudio
+FWAT   = -framework AudioToolbox
+FWAU   = -framework AudioUnit
+FWCS   = -framework CoreServices
+FWC    = -framework Carbon
+FWS    = $(FWCA) $(FWAT) $(FWAU) $(FWCS) $(FWC)
+a12 1
+GCC    = gcc -g -O0 -Wall -Wextra -m32 -std=gnu99
+d14 1
+d16 1
+a16 1
+all: cid ghc runHaskell #stitch #$(CEXE)    # Remove cic for final version
+d18 1
+a18 8
+small: $(CEXE)
+
+$(CEXE): $(COBJ)
+	$(GCC) -o $(CEXE) $(COBJ) $(LIBPA) $(FWS)
+
+%.o: %.c
+	$(GCC) -c $<
+	mv main.o tmp/
+d23 3
+d27 1
+a27 4
+	$(HEXE) 1> tmp/out.stitch
+
+stitch:
+	perl $(STITCH)
+d33 1
+a33 1
+	cid + $(HSRC) $(STITCH) $(MKFILE) frame/main.frame
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.3 2013-02-22 15:53:53-08 - - $
+d33 1
+a33 1
+all: cid ghc runHaskell stitch #$(CEXE)    # Remove cic for final version
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.2 2013-02-22 15:51:11-08 - - $
+d58 1
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.1 2013-02-11 12:57:34-08 - - $
+d57 1
+a57 1
+	cid + $(HSRC) $(STITCH) $(MKFILE) frame/main.cframe
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.39 2013-02-10 01:42:00-08 - - $
+d33 1
+a33 1
+all: cid ghc runHaskell stitch $(CEXE)    # Remove cic for final version
+@

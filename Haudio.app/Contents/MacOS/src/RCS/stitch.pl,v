@@ -1,0 +1,469 @@
+head	1.20;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.20
+date	2013.02.23.01.33.05;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.02.23.01.31.34;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.02.23.01.31.17;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.02.23.01.30.58;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.02.23.01.30.22;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.02.23.01.29.45;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.02.23.01.29.22;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.23.01.27.24;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.23.01.26.43;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.23.01.26.17;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.23.01.25.44;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.23.01.25.19;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.23.01.23.57;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.23.01.21.32;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.23.01.21.06;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.23.01.17.25;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.22.23.54.28;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.22.23.53.53;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.10.09.33.02;	author nicholassmith;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.08.23.07.51;	author nicholassmith;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.20
+log
+@-
+@
+text
+@#!/usr/bin/perl -w
+# $Id: stitch.pl,v 1.19 2013-02-22 17:31:34-08 - - $
+use warnings;
+use FindBin;
+
+open MAIN_CSD, ">$FindBin::Bin/../tmp/main.csd" or die $!;
+open MAIN_FRAME, "$FindBin::Bin/../frame/main.frame" or die ("Missing main.frame");
+open OUT_STITCH, "$FindBin::Bin/../tmp/out.stitch" or die ("Missing out.stitch");
+
+stitch(MAIN_CSD,MAIN_FRAME,OUT_STITCH);
+
+close(MAIN_CSD);
+close(MAIN_FRAME);
+close(OUT_STITCH);
+
+sub stitch {
+   my $outFile = $_[0];
+   my $frameFile = $_[1];
+   my $stitchFile = $_[2];
+   my @@frameWords = split(/stitch/,readFile($frameFile));
+   print $outFile $frameWords[0]."\n";
+   my @@stitchWords = split(/stitch/,readFile($stitchFile));
+   my ($instr, $pFields) = half(@@stitchWords);
+   print $outFile @@$instr;
+   print $outFile $frameWords[1];
+   print $outFile @@$pFields;
+   print $outFile $frameWords[2];
+}
+
+sub readFile {
+   my $file = $_[0];
+   my($buf,$data,$n);
+   while(($n = read $file, $data, 1) != 0){
+      $buf .= $data;
+   }
+   return $buf;
+}
+
+sub half {
+   my @@array = @@_;
+   my(@@one,@@two);
+   my $i = 0;
+   foreach my $elem (@@array){
+      if(($i++ % 2) == 0){
+         push(@@one,$elem);
+      } else {
+         push(@@two,$elem);
+      }
+   }
+   return (\@@one,\@@two);
+}
+
+@
+
+
+1.19
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.18 2013-02-22 17:31:17-08 - - $
+d23 2
+a24 3
+   my (@@instr, @@pFields) = half(@@stitchWords);
+   print $outFile @@instr;
+   print @@pFields;
+d26 1
+a26 1
+   print $outFile @@pFields;
+d50 1
+a50 1
+   return (@@one,@@two);
+@
+
+
+1.18
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.17 2013-02-22 17:30:58-08 - - $
+d25 1
+a25 1
+   print @@instr;
+@
+
+
+1.17
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.16 2013-02-22 17:30:22-08 - - $
+d25 1
+a50 1
+   print @@two;
+@
+
+
+1.16
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.15 2013-02-22 17:29:45-08 - - $
+d27 1
+a27 1
+   #print $outFile $frameWords[2];
+d50 1
+@
+
+
+1.15
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.14 2013-02-22 17:29:22-08 - - $
+d27 1
+a27 1
+   print $outFile $frameWords[2];
+@
+
+
+1.14
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.13 2013-02-22 17:27:24-08 - - $
+a22 1
+   print @@stitchWords;
+a40 1
+   print @@array;
+a46 1
+         print $elem;
+@
+
+
+1.13
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.12 2013-02-22 17:26:43-08 - - $
+d41 1
+a41 1
+   my @@array = $_[0];
+@
+
+
+1.12
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.11 2013-02-22 17:26:17-08 - - $
+d23 1
+a45 1
+      print $i;
+@
+
+
+1.11
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.10 2013-02-22 17:25:44-08 - - $
+d41 1
+@
+
+
+1.10
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.9 2013-02-22 17:25:19-08 - - $
+a22 1
+   print @@stitchWords;
+d44 1
+@
+
+
+1.9
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.8 2013-02-22 17:23:57-08 - - $
+d23 1
+@
+
+
+1.8
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.7 2013-02-22 17:21:32-08 - - $
+d47 1
+@
+
+
+1.7
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.6 2013-02-22 17:21:06-08 - - $
+a24 2
+   print "Got here\n";
+   print @@instr;
+d44 1
+a44 2
+      print $elem;
+      if($i % 2 == 0){
+@
+
+
+1.6
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.5 2013-02-22 17:17:25-08 - - $
+d25 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.4 2013-02-22 15:54:28-08 - - $
+d25 1
+d45 1
+@
+
+
+1.4
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.3 2013-02-22 15:53:53-08 - - $
+d6 2
+a7 2
+open MAIN_C, ">$FindBin::Bin/../tmp/main.csd" or die $!;
+open MAIN_CFRAME, "$FindBin::Bin/../frame/main.frame" or die ("Missing main.frame");
+d10 1
+a10 1
+stitch(MAIN_C,MAIN_CFRAME,OUT_STITCH);
+d12 2
+a13 2
+close(MAIN_C);
+close(MAIN_CFRAME);
+d20 14
+a33 2
+   my($buf,$data,$n,@@words);
+   while(($n = read $frameFile, $data, 1) != 0){
+d36 13
+a48 5
+   @@words = split(/stitch/,$buf);
+   print $outFile $words[0]."\n";
+   $buf = "";
+   while(($n = read $stitchFile,$data,1) != 0){
+      $buf .= $data;
+d50 1
+a50 2
+   print $outFile $buf;
+   print $outFile $words[1];
+@
+
+
+1.3
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.2 2013-02-10 01:33:02-08 nicholassmith - $
+d6 1
+a6 1
+open MAIN_C, ">$FindBin::Bin/../tmp/main.c" or die $!;
+@
+
+
+1.2
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.1 2013-02-08 15:07:51-08 nicholassmith - $
+d7 1
+a7 1
+open MAIN_CFRAME, "$FindBin::Bin/../frame/main.cframe" or die ("Missing main.cframe");
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 1
+a2 1
+# $Id: stitch.pl,v 1.1 2013-02-08 15:05:59-08 nicholassmith - $
+d4 1
+d6 3
+a8 3
+open MAIN_C, ">../tmp/main.c" or die ("Missing main.c");
+open MAIN_CFRAME, "../frame/main.cframe" or die ("Missing main.cframe");
+open OUT_STITCH, "../tmp/out.stitch" or die ("Missing out.stitch");
+@

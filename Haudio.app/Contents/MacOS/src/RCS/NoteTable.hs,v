@@ -1,0 +1,809 @@
+head	1.25;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.25
+date	2013.03.05.02.20.24;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2013.03.04.21.33.13;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2013.02.28.19.02.46;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2013.02.28.19.02.17;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2013.02.28.19.00.38;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2013.02.26.06.53.02;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2013.02.26.06.49.41;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2013.02.26.06.49.24;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2013.02.26.06.42.06;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2013.02.26.06.41.51;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2013.02.26.06.41.28;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2013.02.25.05.42.37;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2013.02.25.05.42.24;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.02.25.05.42.07;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.02.23.05.45.04;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.02.23.05.41.15;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.02.23.05.39.58;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.02.23.05.34.58;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.02.23.05.34.47;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.02.23.05.28.23;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.14.01.34.23;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.13.21.57.06;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.13.21.56.49;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.13.04.47.53;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.08.23.07.51;	author nicholassmith;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.25
+log
+@-
+@
+text
+@-- $Id: NoteTable.hs,v 1.24 2013-03-04 13:33:13-08 - - $
+
+
+module NoteTable where
+
+import Haudio
+
+type KeyNum = Float
+type Step = Float
+
+--Takes a piano key number and converts it to its respective frequency
+getFreq :: KeyNum -> Frequency
+getFreq i = 2**((i-49) / 12) * 440
+
+--Takes a frequency and returns a piano key value
+getKey :: Frequency -> KeyNum
+getKey i = 12 * (logBase 2 (i / 440)) + 49
+
+--Calculates the minor third above the inputted root note 
+minorThird :: Frequency->Frequency
+minorThird i = getFreq ((getKey i) + 3)
+
+--Calculates the major third above the inputted root note
+majorThird :: Frequency->Frequency
+majorThird i = getFreq ((getKey i) + 4)
+
+--Calculates the frequency of n half steps above the inputted root note
+getStep :: Step->Frequency->Frequency
+getStep s i = getFreq ((getKey i) + s)
+
+step :: Notes->Step->Notes
+step (Note f v es) s = Note (getStep s f) v es
+
+--Creates a chord with a root note, minor third and fifth
+minorChord :: Notes->Notes
+minorChord (Note f v e) = Chord (root:third:fifth:[]) where
+                          root = Note f v e
+                          thirdFreq = minorThird f
+                          third = Note thirdFreq v e
+                          fifthFreq = majorThird thirdFreq
+                          fifth = Note fifthFreq v e
+
+majorChord :: Notes->Notes
+majorChord (Note f v e) = Chord (root:third:fifth:[]) where
+                          root = Note f v e
+                          thirdFreq = majorThird f
+                          third = Note thirdFreq v e
+                          fifthFreq = minorThird thirdFreq
+                          fifth = Note fifthFreq v e
+
+c8 :: Float
+c8 = 4186.01
+
+b7 :: Float
+b7 = 3951.07
+
+aS7 :: Float
+aS7 = 3729.31
+
+a7 :: Float
+a7 = 3520.00
+
+gS7 :: Float
+gS7 = 3322.44
+
+g7 :: Float
+g7 = 3135.96
+
+fS7 :: Float
+fS7 = 2959.96
+
+f7 :: Float
+f7 = 2793.83
+
+e7 :: Float
+e7 = 2637.02
+
+dS7 :: Float
+dS7 = 2489.02
+
+d7 :: Float
+d7 = 2349.32
+
+cS7 :: Float
+cS7 = 2217.46
+
+c7 :: Float
+c7 = 2093.00
+
+b6 :: Float
+b6 = 1975.53
+
+aS6 :: Float
+aS6 = 1864.66
+
+a6 :: Float
+a6 = 1760.00
+
+gS6 :: Float
+gS6 = 1661.22
+
+g6 :: Float
+g6 = 1567.98
+
+fS6 :: Float
+fS6 = 1479.98
+
+f6 :: Float
+f6 = 1396.91
+
+e6 :: Float
+e6 = 1318.51
+
+dS6 :: Float
+dS6 = 1244.51
+
+d6 :: Float
+d6 = 1174.66
+
+cS6 :: Float
+cS6 = 1108.73
+
+c6 :: Float
+c6 = 1046.50
+
+b5 :: Float
+b5 = 987.767
+
+aS5 :: Float
+aS5 = 932.328
+
+a5 :: Float
+a5 = 880.000
+
+gS5 :: Float
+gS5 = 830.609
+
+g5 :: Float
+g5 = 783.991
+
+fS5 :: Float
+fS5 = 739.989
+
+f5 :: Float
+f5 = 698.456
+
+e5 :: Float
+e5 = 659.255
+
+dS5 :: Float
+dS5 = 622.254
+
+d5 :: Float
+d5 = 587.330
+
+cS5 :: Float
+cS5 = 554.365
+
+c5 :: Float
+c5 = 523.251
+
+b4 :: Float
+b4 = 493.883
+
+aS4 :: Float
+aS4 = 466.164
+
+a4 :: Float
+a4 = 440.000
+
+gS4 :: Float
+gS4 = 415.305
+
+g4 :: Float
+g4 = 391.995
+
+fS4 :: Float
+fS4 = 369.994
+
+f4 :: Float
+f4 = 349.228
+
+e4 :: Float
+e4 = 329.628
+
+dS4 :: Float
+dS4 = 311.127
+
+d4 :: Float
+d4 = 293.665
+
+cS4 :: Float
+cS4 = 277.183
+
+c4 :: Float
+c4 = 261.626
+
+b3 :: Float
+b3 = 246.942
+
+aS3 :: Float
+aS3 = 233.082
+
+a3 :: Float
+a3 = 220.000
+
+gS3 :: Float
+gS3 = 207.652
+
+g3 :: Float
+g3 = 195.998
+
+fS3 :: Float
+fS3 = 184.997
+
+f3 :: Float
+f3 = 174.614
+
+e3 :: Float
+e3 = 164.814
+
+dS3 :: Float
+dS3 = 155.563
+
+d3 :: Float
+d3 = 146.832
+
+cS3 :: Float
+cS3 = 138.591
+
+c3 :: Float
+c3 = 130.813
+
+b2 :: Float
+b2 = 123.471
+
+aS2 :: Float
+aS2 = 116.541
+
+a2 :: Float
+a2 = 110.000
+
+gS2 :: Float
+gS2 = 103.826
+
+g2 :: Float
+g2 = 97.9989
+
+fS2 :: Float
+fS2 = 92.4986
+
+f2 :: Float
+f2 = 87.3071
+
+e2 :: Float
+e2 = 82.4069
+
+dS2 :: Float
+dS2 = 77.7817
+
+d2 :: Float
+d2 = 73.4162
+
+cS2 :: Float
+cS2 = 69.2957
+
+c2 :: Float
+c2 = 65.4064
+
+b1 :: Float
+b1 = 61.7354
+
+aS1 :: Float
+aS1 = 58.2705
+
+a1 :: Float
+a1 = 55.0000
+
+gS1 :: Float
+gS1 = 51.9139
+
+g1 :: Float
+g1 = 48.9994
+
+fS1 :: Float
+fS1 = 46.2493
+
+f1 :: Float
+f1 = 43.6545
+
+e1 :: Float
+e1 = 41.2034
+
+dS1 :: Float
+dS1 = 38.8909
+
+d1 :: Float
+d1 = 36.7081
+
+cS1 :: Float
+cS1 = 34.6478
+
+c1 :: Float
+c1 = 32.7032
+
+b0 :: Float
+b0 = 30.8677
+
+aS0 :: Float
+aS0 = 29.1352
+
+a0 :: Float
+a0 = 27.5000
+
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.23 2013-02-28 11:02:46-08 - - $
+d35 2
+a36 2
+minorChord :: Notes->[Notes]
+minorChord (Note f v e) = root:third:fifth:[] where
+d43 2
+a44 2
+majorChord :: Notes->[Notes]
+majorChord (Note f v e) = root:third:fifth:[] where
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.20 2013-02-25 22:53:02-08 - - $
+d31 3
+@
+
+
+1.22
+log
+@-
+@
+text
+@d34 5
+a38 5
+                        root = Note f v e
+                        thirdFreq = minorThird f
+                        third = Note thirdFreq v e
+                        fifthFreq = majorThird thirdFreq
+                        fifth = Note fifthFreq v e
+d41 6
+a46 6
+majorChord (Note f v _) = root:third:fifth:[] where
+                        root = Note f v
+                        thirdFreq = majorThird f
+                        third = Note thirdFreq v
+                        fifthFreq = minorThird thirdFreq
+                        fifth = Note fifthFreq v
+@
+
+
+1.21
+log
+@-
+@
+text
+@d33 2
+a34 2
+minorChord (Note f v _) = root:third:fifth:[] where
+                        root = Note f v
+d36 1
+a36 1
+                        third = Note thirdFreq v
+d38 1
+a38 1
+                        fifth = Note fifthFreq v
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.19 2013-02-25 22:49:41-08 - - $
+d33 1
+a33 1
+minorChord (Note f v) = root:third:fifth:[] where
+d41 1
+a41 1
+majorChord (Note f v) = root:third:fifth:[] where
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.18 2013-02-25 22:49:24-08 - - $
+d40 8
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.17 2013-02-25 22:42:06-08 - - $
+d38 1
+a38 1
+                        fifth = Note fifthThird v
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.16 2013-02-25 22:41:51-08 - - $
+d31 9
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.15 2013-02-25 22:41:28-08 - - $
+a294 3
+a0 :: Float
+a0 = 27.5000
+
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.14 2013-02-24 21:42:37-08 - - $
+d227 1
+a227 1
+g2 97.9989
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.13 2013-02-24 21:42:24-08 - - $
+d206 88
+a293 1
+d3 = getFreq 30
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.12 2013-02-24 21:42:07-08 - - $
+d7 1
+a8 1
+type Frequency = Float
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.11 2013-02-22 21:45:04-08 - - $
+a2 1
+import Haudio
+d6 1
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 3
+a3 1
+-- $Id: NoteTable.hs,v 1.10 2013-02-22 21:41:15-08 - - $
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.9 2013-02-22 21:39:58-08 - - $
+d25 1
+a25 1
+--Calculates the frequency of n steps above the inputted root note
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.8 2013-02-22 21:34:58-08 - - $
+d7 1
+a7 1
+type Step = Integer
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.7 2013-02-22 21:34:47-08 - - $
+d7 1
+d10 1
+a10 1
+getFreq :: Float -> Float
+d14 1
+a14 1
+getKey :: Float -> Float
+d17 11
+a27 3
+--Calculates a the minor third above the inputted root note 
+minorThird :: Float->Float
+minorThird i = i 
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.6 2013-02-22 21:28:23-08 - - $
+d18 1
+a18 1
+minorThird i = 
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.5 2013-02-13 17:34:23-08 - - $
+d5 4
+d12 8
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.4 2013-02-13 13:57:06-08 - - $
+d5 3
+d128 24
+d155 30
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.3 2013-02-13 13:56:49-08 - - $
+d77 2
+d80 41
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.2 2013-02-12 20:47:53-08 - - $
+d5 1
+a5 1
+c8 :: FLoat
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.1 2013-02-08 15:07:51-08 nicholassmith - $
+d5 74
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+-- $Id: NoteTable.hs,v 1.1 2013-02-08 15:05:59-08 nicholassmith - $
+d11 3
+@
