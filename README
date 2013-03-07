@@ -1,8 +1,8 @@
 $Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
-######################################################
-#  Haudio
-#  
-#
+#####################################################################
+#  Haudio                                                           #
+#     A Haskell wrapper for CSound                                  #
+#####################################################################
 
  Usage
 
@@ -10,13 +10,17 @@ $Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
                     http://www.csounds.com/
 
     From GUI: Open GUI and enter code either through main window, or 
-              through interactive mode.
+              through interactive mode.  The GUI has an exact copy of
+              all the code in Hauio.app/Contents/MacOs/ and the code
+              must be copied there for the GUI to see any changes. In
+              the finder you can right click a .app and select 'Show
+              Package Contents'.
               Note ~ This only works on mac
     
     From Command Line: mkdir ~/.../Haudio and copy all files from
                        repository to the folder.  Edit or create
                        a file called ~/.../Haudio/tmp/out.hs, this
-                       file must include at least:
+                       haskell file must include at least:
 
                           import Haudio
                           import NoteTable
@@ -27,8 +31,9 @@ $Id: README,v 1.1 2013-03-06 17:01:27-08 - - $
                           main :: IO ()
                           main = playNoFork playList
 
-                       Run using: $ make
+                       Run using: 
+                                  $ make
                                   $ csound -d -odac tmp/main.csd
-                       Or:
+
+                       Or using ghci:
                                   $ make interactive
-                       Which will run it using ghci.
